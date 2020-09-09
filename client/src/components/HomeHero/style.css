@@ -51,8 +51,11 @@ button:focus {
 }
 
 .hero-logo {
+    position:absolute;
+    top:25%;
+    left:10%;
     margin:0px auto;
-    width:25%;
+    width:35%;
 }
 
 @media (max-width:667px) {

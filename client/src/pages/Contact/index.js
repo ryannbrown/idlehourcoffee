@@ -184,7 +184,7 @@ export default class Contact extends Component {
                         <div className="contact-box">
                             <h1>Contact us</h1>
                             <p>Drop us a line the next time you're in Raleigh</p>
-                            {/* <a href="mailto:info@blueheronculinary.com?subject=Contact Blue Heron"> */}
+                            {/* <a href="mailto:info@idlehourculinary.com?subject=Contact Blue Heron"> */}
                             <button onClick={this.openModal} className="contact-btn-link">Email us</button>
                       
                         </div>
@@ -224,7 +224,7 @@ export default class Contact extends Component {
                                     {errorMsg ? (
                                         <Alert variant='danger'>
                                         There was trouble accessing email server. Email us directly
-                                        at info@blueheronculinary.com
+                                        at info@idlehourculinary.com
                                       </Alert>
                                     ): (<div></div>)}
                                 </div>

@@ -5,8 +5,8 @@ import React, { Component } from 'react';
 // import HomeHero from "../../components/HomeHero/index"
 import './style.css';
 // import profPic from "../../media/5.PNG"
-import logo from "../../media/Blue-Heron-Blue.png"
-import heroImg from "../../media/sand-beach.png"
+import logo from "../../media/logo.png"
+import heroImg from "../../media/background.jpg"
 // import arrow from "../../media/arrow.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuoteLeft, faGlassMartini } from '@fortawesome/free-solid-svg-icons'
@@ -47,16 +47,13 @@ export default class HomeHero extends Component {
   render() {
 
 
-
-
-
     return (
       <div className="inner">
-        <div className="cta-nav-btn">
+        {/* <div className="cta-nav-btn">
           <a href="/contact">
             <button className="contact-btn-link">Contact us</button>
           </a>
-        </div>
+        </div> */}
 
         <Row>
           {/* <Col md={3}></Col> */}
@@ -90,7 +87,7 @@ export default class HomeHero extends Component {
             <br></br>
             {/* <div> */}
             {/* <Button className="action-button" variant="outline-dark">Coming Soon     </Button> */}
-            <p className="action-button primaryTextColor">Coming Soon</p>
+            {/* <p className="action-button primaryTextColor">Coming Soon</p> */}
             {/* <div className="arrow-container">
             <Image className="arrow-img center" src={arrow}></Image>
             </div> */}

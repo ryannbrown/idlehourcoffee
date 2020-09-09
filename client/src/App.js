@@ -46,11 +46,11 @@ function App() {
              <Route path="/connect" component={Connect}/>
              <Route path="/offerings" component={Offerings}/>
              <Route path="/admin" component={Admin}/> */}
-             <Route path="/contact" component={Contact}/>
+             {/* <Route path="/contact" component={Contact}/> */}
              <Route path="/" component={Homepage}/>
            </Switch>
          </Router>
-       {/* <Footer></Footer> */}
+       <Footer></Footer>
          
     </div>
   
