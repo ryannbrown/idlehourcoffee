@@ -86,6 +86,7 @@ export default class HomeHero extends Component {
                   </p>
                 </div>
               </div>
+                  <hr></hr>
               <div className="directions-block">
                 <img className="hero-icon" src={flag}></img>
                 <div className="hours-details">
@@ -93,6 +94,7 @@ export default class HomeHero extends Component {
                   <p className="address">1818 Oberlin Rd #103</p>
                 </div>
               </div>
+                  <hr></hr>
             </div>
           </Col>
         </Row>
