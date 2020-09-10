@@ -126,3 +126,28 @@ hr {
   position:absolute;
   top:50%;
 }
+
+
+.icon-box {
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon-container {
+  flex: 0 0 30%;
+  margin: 0px auto;
+ }
+
+ @media (min-width:997px) {
+  .icon-container {
+    flex: none;
+    margin: 0px auto;
+    /* max-width: 130px; */
+}
+
+.icon-box{
+  display:flex;
+  justify-content:space-around
+}
+ }
