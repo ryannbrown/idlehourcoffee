@@ -85,7 +85,9 @@ export default class Footer extends Component {
               <div className="coming-soon">
                 <p>full site coming soon</p>
               </div>
+              <a href="mailto:ryanbrownmedia@gmail.com,timsteeleallenl@gmail.com">
               <p className="justsoup">Powered by Just Soup</p>
+              </a>
             </div>
         </Col>
       </Row>

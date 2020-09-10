@@ -144,11 +144,6 @@
   }
 }
 
-@media (min-height: 550px) and (max-height:850px) and (min-width:849px) {
-  .hero-content {
-    top: 70%;
-  }
-}
 @media (max-height: 549px) {
   .hero-content {
     display:none;
