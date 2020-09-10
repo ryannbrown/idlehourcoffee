@@ -78,6 +78,10 @@
     width: 55px;
     float: left;
   }
+
+  .home-img.col-md-12.col-sm-12 {
+    height: 812px !important;
+  }
   /* 
       .hero-hours-block , .directions-block {
           display:flex;
