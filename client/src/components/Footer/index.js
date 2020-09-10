@@ -64,6 +64,7 @@ export default class Footer extends Component {
             // height: `100vh`,
             display: `flex`,
             alignItems: `center`,
+            justifyContent: 'center',
             position: `relative`,
             width: `350px`,
             height: `37.5vh`,

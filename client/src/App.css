@@ -7,6 +7,24 @@
   font-family: 'adelle';
 } */
 
+
+
+.row {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.grid {
+  padding-left:0 !important;
+  padding-right:0 !important;
+}
+.col-md-12 {
+  padding-left:0px !important;
+  padding-right:0px !important;
+}
+
+
 br {
   height:10px;
 }
@@ -125,7 +143,7 @@ hr {
 
 
 .footer-div{
-  height:200px;
+  height:67.5vh;
   background-color:lightblue;
 }
 

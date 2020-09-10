@@ -32,11 +32,12 @@
     position:absolute;
     left:50%;
     top:-34px;
+    margin-left:-12.5px;
 }
 
 .icon-box {
     margin-bottom:50px;
-    max-width:650px;
+    max-width:900px;
     margin:0px auto;
 }
 
@@ -68,5 +69,6 @@
 }
 
 .contact-text{
-    padding:15px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
