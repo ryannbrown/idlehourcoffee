@@ -6,6 +6,7 @@ import HomeHero from "../../components/HomeHero/index"
 import HomeBio from "../../components/HomeBio/index"
 import HomeAction from "../../components/HomeAction/index"
 import HomeQuote from "../../components/HomeQuote/index"
+import Footer from "../../components/Footer/index.js"
 import './style.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -48,11 +49,15 @@ export default class Homepage extends Component {
 
     render() {
         return (
+            <div>
             <div className="homepage-content" style={{
                 // height: `20vh`, /* Fallback for browsers that do not support Custom Properties */
                 height: `${this.state.height}`
             }}>
                 <HomeHero height={this.state.height}></HomeHero>
+
+            </div>
+                <Footer></Footer>
             </div>
         )
     }
