@@ -1,5 +1,11 @@
 
-
+.nav-btn{
+    position:absolute;
+    left:5%;
+    top:5%;
+    z-index:750;
+    width:75px;
+}
 
 .hero-logo {
     position:absolute;
@@ -74,6 +80,16 @@
 
 
 @media (max-width:997px) {
+
+    
+.nav-btn{
+    position:absolute;
+    left:50%;
+    margin-left: -37.5px;
+    top:5%;
+    z-index:750;
+    width:75px;
+}
 .hero-logo {
     position:absolute;
     top:15%;

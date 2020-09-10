@@ -6,6 +6,7 @@ import React, { Component } from "react";
 import "./style.css";
 // import profPic from "../../media/5.PNG"
 import logo from "../../media/ihlogo.png";
+import blackStar from "../../media/blackstar.png";
 import heroImg from "../../media/background.jpg";
 import clock from "../../media/blackclock.png";
 import flag from "../../media/blackflag.png";
@@ -47,10 +48,11 @@ export default class HomeHero extends Component {
       <div className="inner">
         {/* <div className="cta-nav-btn">
           <a href="/contact">
-            <button className="contact-btn-link">Contact us</button>
+          <button className="contact-btn-link">Contact us</button>
           </a>
         </div> */}
 
+        <img className="nav-btn" src={blackStar}></img>
         <Row className="hero-row">
           {/* <Col md={3}></Col> */}
 
