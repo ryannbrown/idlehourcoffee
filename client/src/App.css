@@ -3,20 +3,20 @@
   overflow-x:hidden;
 } */
 
-* {
+/* * {
   font-family: 'adelle';
-}
+} */
 
 
 .light {
-  font-family: 'adelle-ultrathin';
+  /* font-family: 'adelle-ultrathin'; */
 font-weight: 100;
 font-style: normal;
 }
 
 .App {
   text-align: center;
-  overflow-x: hidden !important;
+  overflow: hidden !important;
 }
 
 h1, h2 {
@@ -34,13 +34,6 @@ p, li, h3, h4, h5, a, button {
   letter-spacing:.1rem
 }
 
-.libre {
-  font-family: 'Libre Baskerville', serif;
-}
-
-.rob {
-  font-family: 'Roboto', sans-serif;
-}
 
 
 /* .App {

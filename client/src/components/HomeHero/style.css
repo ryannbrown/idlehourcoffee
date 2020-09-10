@@ -1,59 +1,10 @@
 
-.cta-nav-btn{
-    position:absolute;
-    right:25px;
-    top:25px;
-    padding-right:3rem;
-    /* padding-top:.3125rem; */
-    z-index:5000;
-    
-}
 
-
-button:focus {
-    outline:none;
-}
-
-.contact-btn-link {
-    display: inline-block;
-    font-weight: 400;
-    color: #212529;
-    text-align: center;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-color: transparent;
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: .25rem;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-.contact-btn-link{
-    color: #0E3B62;
-    background-color:transparent;
-    border: 1px solid #0E3B62;
-}
-.contact-btn-link-contactpage{
-    color: #0E3B62;
-    border: 1px solid #0E3B62;
-}
-
-
-.contact-btn-link:hover {
-    color: #fff;
-    background-color: #6F8EA8;
-    border-color: #6F8EA8;
-}
 
 .hero-logo {
     position:absolute;
     top:25%;
-    left:10%;
+    left:15%;
     margin:0px auto;
     width:35%;
 }
@@ -64,13 +15,134 @@ button:focus {
         width:50%;
     }
 
-    .cta-nav-btn{
+}
+
+.hero-icon {
+    width:55px;
+    float:left;
+}
+
+.hero-hours-block .directions-block {
+    display:flex;
+    flex-direction:column;
+}
+
+.hero-content {
     position:absolute;
-    right:0px;
-    /* top:25px; */
-    z-index:5000;
+    top:65%;
+    left:15%;
+    width:20%;
+}
+
+.hours, .address {
+    border-bottom: 1.5px solid #FAB105;
+    width:100%;
+    letter-spacing:1px;
+    padding-bottom:10px;
+}
+
+.hours {
+    text-align:left;
+    font-size:.75rem;
+    font-weight:lighter;
+}
+
+.hours > span {
+    font-weight:bold;
+}
+
+.hours-title, .directions-title {
+    font-size:1.25rem;
+    margin:10px 10px 10px 15%;
+    font-weight:bold;
+    text-align:left;
+}
+
+.address {
+    font-size:.75rem;
+    text-align:left;
+}
+
+
+
+@media (max-width:997px) {
     
+.hero-logo {
+    position:absolute;
+    top:15%;
+    left:50%;
+    margin-left:-25%; 
+    width:50%;
+}
+
+/* @media (max-width:667px) {
+    .hero-logo {
+        margin:0px auto;
+        width:50%;
+    }
+
+} */
+
+.hero-icon {
+    width:100px;
+    float:left;
+}
+
+.hero-hours-block, .directions-block {
+    /* margin:5%; */
+    display:flex;
+    flex-direction:row;
+}
+
+.hours-details {
+    display: flex;
+    flex-direction: column;
+}
+.directions-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-content {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 100%;
+    margin-left:-25%;
+}
+
+.hours, .address {
+    border-bottom: 1.5px solid #FAB105;
+    width:100%;
+    letter-spacing:1px;
+    padding-bottom:10px;
+}
+
+.hours {
+    text-align:left;
+    font-size:.75rem;
+    font-weight:lighter;
+    width:200px;
+}
+
+.hours > span {
+    font-weight:bold;
+}
+
+.hours-title, .directions-title {
+    font-size:1.25rem;
+    margin:10px 10px 10px 15%;
+    font-weight:bold;
+    text-align:left;
+}
+
+.address {
+    font-size:.75rem;
+    text-align:left;
 }
 }
+
+
+
 
 
