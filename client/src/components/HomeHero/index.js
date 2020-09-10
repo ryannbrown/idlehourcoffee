@@ -80,14 +80,14 @@ export default class HomeHero extends Component {
             <Image className="hero-logo" src={logo}></Image>
             <div className="hero-content">
               <div className="block hero-hours-block">
-                <img width="100px" src={clock}></img>
+                <img width="85px" src={clock}></img>
                 <p className="mb-2">Store Hours</p>
                 {/* <br></br> */}
                 <p>Monday - Sunday</p>
                 <p>7am - 7pm</p>
               </div>
               <div className="block hero-directions-block">
-                <img width="100px" src={flag}></img>
+                <img width="85px" src={flag}></img>
                 <p className="mb-2">Find us at</p>
                 {/* <br></br> */}
                 <p>1818 Oberlin Rd #103 </p>

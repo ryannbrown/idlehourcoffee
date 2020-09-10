@@ -14,6 +14,10 @@
   width: 35%;
 }
 
+.coming-soon p {
+  font-size: 12px;
+}
+
 @media (max-width: 667px) {
   .hero-logo {
     margin: 0px auto;
@@ -80,7 +84,7 @@
   }
 
   .home-img.col-md-12.col-sm-12 {
-    height: 812px !important;
+    height: 1000px !important;
   }
   /* 
       .hero-hours-block , .directions-block {
@@ -153,7 +157,7 @@
     position: absolute;
     top: 90%;
     left: 50%;
-    margin-left: -91.5px;
+    margin-left: -74.5px;
   }
 }
 
