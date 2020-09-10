@@ -146,11 +146,10 @@
 
 @media (max-height: 549px) {
   .hero-content {
-    display:none;
+    display: none;
   }
 }
 
-
 img.icon {
-    width:75px;
+  width: 100px;
 }
