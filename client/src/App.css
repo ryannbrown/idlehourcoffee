@@ -1,4 +1,3 @@
-
 /* * {
   overflow-x:hidden;
 } */
@@ -7,8 +6,6 @@
   font-family: 'adelle';
 } */
 
-
-
 .row {
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -16,27 +13,26 @@
   margin-left: 0 !important;
 }
 .grid {
-  padding-left:0 !important;
-  padding-right:0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 .col-md-12 {
-  padding-left:0px !important;
-  padding-right:0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
-
 br {
-  height:10px;
+  height: 10px;
 }
 
 p {
-  margin-bottom:0;
+  margin-bottom: 0;
 }
 
 .light {
   /* font-family: 'adelle-ultrathin'; */
-font-weight: 100;
-font-style: normal;
+  font-weight: 100;
+  font-style: normal;
 }
 
 .App {
@@ -44,22 +40,27 @@ font-style: normal;
   overflow: hidden !important;
 }
 
-h1, h2 {
-/* font-family: 'adelle'; */
+h1,
+h2 {
+  /* font-family: 'adelle'; */
   /* font-family: serif; */
 }
 
 h1 {
-  margin:0;
+  margin: 0;
 }
 
-p, li, h3, h4, h5, a, button {
+p,
+li,
+h3,
+h4,
+h5,
+a,
+button {
   /* font-family: 'Roboto', sans-serif; */
   /* font-family: adelle, serif; */
-  letter-spacing:.1rem
+  letter-spacing: 0.1rem;
 }
-
-
 
 /* .App {
   background-image:url(../src/media/moroccan-flower.png);
@@ -106,13 +107,12 @@ p, li, h3, h4, h5, a, button {
   /* margin-top:5%; */
 }
 
-
 .primaryTextColor {
-  color: #0E3B62;
+  color: #0e3b62;
 }
 
-.lightText  {
-  color:  #ECECEC
+.lightText {
+  color: #ececec;
 }
 
 .darkText {
@@ -134,24 +134,22 @@ hr {
     border: 0;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #fff;
-}
+  }
 }
 
 .addPadding {
-  padding:5%;
+  padding: 5%;
 }
 
-
-.footer-div{
-  height:67.5vh;
-  background-color:lightblue;
+.footer-div {
+  height: 50vh;
+  background-color: lightblue;
 }
 
 .footer-div > * {
-  position:absolute;
-  top:50%;
+  position: absolute;
+  top: 50%;
 }
-
 
 .icon-box {
   margin-bottom: 50px;
@@ -162,17 +160,17 @@ hr {
 .icon-container {
   flex: 0 0 30%;
   margin: 0px auto;
- }
+}
 
- @media (min-width:997px) {
+@media (min-width: 997px) {
   .icon-container {
     flex: none;
     margin: 0px auto;
     /* max-width: 130px; */
-}
+  }
 
-.icon-box{
-  display:flex;
-  justify-content:space-around
+  .icon-box {
+    display: flex;
+    justify-content: space-around;
+  }
 }
- }
