@@ -20,7 +20,7 @@ export default class Brand extends Component {
     this.listener = null;
     this.state = {
       status: "top",
-      icons: [],
+      icons: []
     };
   }
 
@@ -31,11 +31,11 @@ export default class Brand extends Component {
       { icon: clock },
       { icon: tamp },
       { icon: latte },
-      { icon: flag },
+      { icon: flag }
     ];
 
     this.setState({
-      icons: icons,
+      icons: icons
     });
   }
 
@@ -67,7 +67,7 @@ export default class Brand extends Component {
             justifyContent: "center",
             position: `relative`,
             width: `350px`,
-            height: `50vh`,
+            height: `50vh`
             //   cover no-repeat center center fixed`
           }}
           className="footer-div"
@@ -81,14 +81,14 @@ export default class Brand extends Component {
             </a>
             {/* <Image className="comet-image" src={whiteComet}></Image> */}
           </div>
-            <div className="bottom-content">
-              <div className="coming-soon">
-                <p>full site coming soon</p>
-              </div>
-              <a href="mailto:ryanbrownmedia@gmail.com,timsteeleallenl@gmail.com">
-              <p className="justsoup">Powered by Just Soup</p>
-              </a>
+          <div className="bottom-content">
+            <div className="coming-soon">
+              <p>Full site coming soon</p>
             </div>
+            <a href="mailto:ryanbrownmedia@gmail.com,timsteeleallenl@gmail.com">
+              <p className="justsoup">Powered by Just Soup</p>
+            </a>
+          </div>
         </Col>
       </Row>
     );
