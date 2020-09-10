@@ -74,7 +74,7 @@ export default class Footer extends Component {
           <img className="dots-img" src={dots}></img>
           <div className="footer-content-box">
             <div className="icon-box">{showIcons}</div>
-            <p>Wanna give us a call?</p>
+            <p className="contact-text">Wanna give us a call?</p>
             <a href="/contact">
               <button className="contact-btn-link">984-200-1605</button>
             </a>

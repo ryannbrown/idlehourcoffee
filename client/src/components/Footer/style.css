@@ -36,6 +36,8 @@
 
 .icon-box {
     margin-bottom:50px;
+    max-width:650px;
+    margin:0px auto;
 }
 
 .contact-btn-link {
@@ -63,4 +65,8 @@
 
 .justsoup {
     font-size:.5rem !important;
+}
+
+.contact-text{
+    padding:15px;
 }
