@@ -58,59 +58,57 @@
 }
 
 @media (min-width: 1500px) {
-    .nav-btn {
-        position: absolute;
-        left: 5%;
-        top: 5%;
-        z-index: 750;
-        width: 75px;
-      }
-      
-      .hero-logo {
-        position: absolute;
-        top: 25%;
-        left: 20%;
-        margin: 0px auto;
-        width: 25%;
-      }
-      
-      
-      .hero-icon {
-        width: 55px;
-        float: left;
-      }
-      /* 
+  .nav-btn {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    z-index: 750;
+    width: 75px;
+  }
+
+  .hero-logo {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    margin: 0px auto;
+    width: 25%;
+  }
+
+  .hero-icon {
+    width: 55px;
+    float: left;
+  }
+  /* 
       .hero-hours-block , .directions-block {
           display:flex;
           flex-direction:row;
           
       } */
-      
-      .hero-content {
-        position: absolute;
-        top: 55%;
-        left: 12.5%;
-        width: 27%;
-        display: flex;
-        font-size: 0.85rem;
-      }
-      
-      .coming-soon {
-        position: absolute;
-        top: 80%;
-        left: 27.5%;
-      }
-      
-      .block.hero-hours-block {
-        border-right: 1px solid orange;
-        height: 225px;
-      }
-      
-      .block {
-        min-width: 20vw;
-        text-align: center;
-      }
 
+  .hero-content {
+    position: absolute;
+    top: 55%;
+    left: 12.5%;
+    width: 27%;
+    display: flex;
+    font-size: 0.85rem;
+  }
+
+  .coming-soon {
+    position: absolute;
+    top: 80%;
+    left: 27.5%;
+  }
+
+  .block.hero-hours-block {
+    border-right: 1px solid orange;
+    height: 225px;
+  }
+
+  .block {
+    min-width: 20vw;
+    text-align: center;
+  }
 }
 
 @media (max-width: 997px) {
@@ -142,10 +140,10 @@
     border-right: none;
     border-bottom: 1px solid orange;
     margin-bottom: 25px;
-    height: 150px;
+    height: 200px;
     width: 175px;
     margin: 0px auto;
-}
+  }
 
   .coming-soon {
     position: absolute;
@@ -155,8 +153,8 @@
   }
 }
 
-@media (max-width:321px) {
-    .hero-content {
-        top:30%;
-    }
+@media (max-width: 321px) {
+  .hero-content {
+    top: 30%;
+  }
 }

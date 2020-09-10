@@ -20,7 +20,7 @@ export default class Footer extends Component {
     this.listener = null;
     this.state = {
       status: "top",
-      icons: [],
+      icons: []
     };
   }
 
@@ -31,11 +31,11 @@ export default class Footer extends Component {
       { icon: clock },
       { icon: tamp },
       { icon: latte },
-      { icon: flag },
+      { icon: flag }
     ];
 
     this.setState({
-      icons: icons,
+      icons: icons
     });
   }
 
@@ -64,10 +64,10 @@ export default class Footer extends Component {
             // height: `100vh`,
             display: `flex`,
             alignItems: `center`,
-            justifyContent: 'center',
+            justifyContent: "center",
             position: `relative`,
             width: `350px`,
-            height: `37.5vh`,
+            height: `67.5vh`
             //   cover no-repeat center center fixed`
           }}
           className="footer-div"
@@ -75,7 +75,7 @@ export default class Footer extends Component {
           <img className="dots-img" src={dots}></img>
           <div className="footer-content-box">
             <div className="icon-box">{showIcons}</div>
-            <p className="contact-text">Wanna give us a call?</p>
+            <p className="contact-text">Want to give us a call?</p>
             <a href="/contact">
               <button className="contact-btn-link">984-200-1605</button>
             </a>

@@ -20,12 +20,12 @@ export default class HomeHero extends Component {
 
     this.listener = null;
     this.state = {
-      status: "top",
+      status: "top"
     };
   }
 
   componentDidMount() {
-    this.listener = document.addEventListener("scroll", (e) => {
+    this.listener = document.addEventListener("scroll", e => {
       var scrolled = document.scrollingElement.scrollTop;
       if (scrolled >= 120) {
         if (this.state.status !== "bgChanged") {
@@ -73,21 +73,21 @@ export default class HomeHero extends Component {
               // maxHeight: '-webkit-fill-available',
               display: `flex`,
               alignItems: `center`,
-              position: `relative`,
+              position: `relative`
               //   cover no-repeat center center fixed`
             }}
           >
             <Image className="hero-logo" src={logo}></Image>
             <div className="hero-content">
               <div className="block hero-hours-block">
-                <img width="35%" src={clock}></img>
+                <img width="100px" src={clock}></img>
                 <p className="mb-2">Store Hours</p>
-               {/* <br></br> */}
+                {/* <br></br> */}
                 <p>Monday - Sunday</p>
                 <p>7am - 7pm</p>
               </div>
               <div className="block hero-directions-block">
-                <img width="35%" src={flag}></img>
+                <img width="100px" src={flag}></img>
                 <p className="mb-2">Find us at</p>
                 {/* <br></br> */}
                 <p>1818 Oberlin Rd #103 </p>
