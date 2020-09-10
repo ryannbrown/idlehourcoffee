@@ -146,10 +146,10 @@ hr {
   background-color: lightblue;
 }
 
-.footer-div > * {
+/* .footer-div > * {
   position: absolute;
   top: 50%;
-}
+} */
 
 .icon-box {
   margin-bottom: 50px;

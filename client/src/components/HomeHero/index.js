@@ -94,9 +94,6 @@ export default class HomeHero extends Component {
                 <p>Raleigh, NC 27608</p>
               </div>
             </div>
-            <div className="coming-soon">
-              <p>Full site coming soon</p>
-            </div>
           </Col>
         </Row>
       </div>
