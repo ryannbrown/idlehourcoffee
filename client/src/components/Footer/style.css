@@ -20,11 +20,11 @@
     margin-top: -1%;
 }
 
-@media (max-width:667px) {
-    .comet-image {
-        width: 25%;
-        margin-top: -7.5%;
+@media (max-width:997px) {
+    .footer-content-box {
+        top:10%;
     }
+
 }
 
 .dots-img{
