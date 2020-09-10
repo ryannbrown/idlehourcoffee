@@ -76,7 +76,7 @@ export default class Footer extends Component {
           <div className="footer-content-box">
             <div className="icon-box">{showIcons}</div>
             <p className="contact-text">Want to give us a call?</p>
-            <a href="/contact">
+            <a href="tel:984-200-1605">
               <button className="contact-btn-link">984-200-1605</button>
             </a>
 
