@@ -107,8 +107,8 @@
     position: absolute;
     top: 45%;
     left: 50%;
-    width: 100%;
-    margin-left:-25%;
+    width: 300px;
+    margin-left: -150px;
 }
 
 .hours, .address {
