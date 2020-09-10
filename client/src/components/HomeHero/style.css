@@ -68,7 +68,6 @@
 
 
 @media (max-width:997px) {
-    
 .hero-logo {
     position:absolute;
     top:15%;
@@ -93,7 +92,6 @@
 }
 
 .hero-hours-block, .directions-block {
-    /* margin:5%; */
     display:flex;
     flex-direction:row;
 }
