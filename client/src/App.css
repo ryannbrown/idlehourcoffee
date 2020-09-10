@@ -7,6 +7,13 @@
   font-family: 'adelle';
 } */
 
+br {
+  height:10px;
+}
+
+p {
+  margin-bottom:0;
+}
 
 .light {
   /* font-family: 'adelle-ultrathin'; */

@@ -79,24 +79,23 @@ export default class HomeHero extends Component {
           >
             <Image className="hero-logo" src={logo}></Image>
             <div className="hero-content">
-              <div className="hero-hours-block">
-                <img className="hero-icon" src={clock}></img>
-                <div className="hours-details">
-                  <p className="hours-title">Hours</p>
-                  <p className="hours">
-                    MON-SUN <span>| 7am - 7pm</span>
-                  </p>
-                </div>
+              <div className="block hero-hours-block">
+                <img width="35%" src={clock}></img>
+                <p className="mb-2">Store Hours</p>
+               {/* <br></br> */}
+                <p>Monday - Sunday</p>
+                <p>7am - 7pm</p>
               </div>
-                  <hr></hr>
-              <div className="directions-block">
-                <img className="hero-icon" src={flag}></img>
-                <div className="hours-details">
-                  <p className="directions-title">Directions</p>
-                  <p className="address">1818 Oberlin Rd #103</p>
-                </div>
+              <div className="block hero-directions-block">
+                <img width="35%" src={flag}></img>
+                <p className="mb-2">Find us at</p>
+                {/* <br></br> */}
+                <p>1818 Oberlin Rd #103 </p>
+                <p>Raleigh, NC 27608</p>
               </div>
-                  <hr></hr>
+            </div>
+            <div className="coming-soon">
+              <p>Full site coming soon</p>
             </div>
           </Col>
         </Row>
