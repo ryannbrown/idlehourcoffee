@@ -108,6 +108,12 @@
   }
 }
 
+@media (min-width: 1900px) {
+  .hero-content {
+    top: 58%;
+  }
+}
+
 @media (max-width: 996px) {
   .nav-btn {
     position: absolute;
