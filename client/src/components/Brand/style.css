@@ -1,5 +1,25 @@
-.brand-container{
-    margin:100px auto;
+.brand-page {
+    height:100vh;
+}
+
+@media(max-width:667px) {
+    .brand-page {
+        height:100%;
+    }
+}
+
+
+.brand-main-icon{
+    margin-top:50px;
+}
+
+.brand-container > p:first-of-type {
+    color:white;
+    font-size:0.85rem;
+    border-bottom:1px solid #FAB105;
+    width:175px;
+    padding:10px 0px;
+    margin:0px auto;
 }
 
 .dots-img-brand {
@@ -11,7 +31,7 @@
 }
 
 .brand-icon-box {
-margin:100px auto;
+margin:0% auto;
     display: flex;
     flex-wrap: wrap;
     max-width:980px;
@@ -22,16 +42,31 @@ margin:100px auto;
     margin: 0px auto;
   }
 
+  @media(max-width:667px) {
+    .brand-icon-container {
+        flex: 0 0 40%;
+    }
+  }
+
   .brand-icon-container p {
+      font-size:0.85rem;
       color:white;
-      width:75%;
+      width:50%;
       margin:0px auto;
   }
 
+
+  .brand-justsoup {
+      font-size:0.75rem;
+      color:#b89e9e;
+      margin:30px;
+  }
   .close-brand {
       cursor:pointer;
-      margin: 5px;
+      padding: 15px;
       color:#FAB105;
+      width:150px;
+      margin:0px auto;
   }
 
   /* .brand-page p {

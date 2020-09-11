@@ -4,6 +4,7 @@ import React, { Component } from "react";
 // import logo from './logo.svg';
 // import HomeHero from "../../components/HomeHero/index"
 import "./style.css";
+import idleIcons from "../../media/idleicons.png"
 import dots from "../../media/dots.png";
 import clock from "../../media/clock-icon-white.png";
 import cup from "../../media/cup-icon-white.png";
@@ -74,21 +75,22 @@ export default class Brand extends Component {
         style={{
           backgroundColor: `black`,
           zIndex: "2000",
-          position: `fixed`,
+          // position: `fixed`,
           width: `100%`,
-          height: `100%`,
+          // height: `100vh`,
         }}
         className="brand-page"
       >
         <div className="brand-container">
-          <h1>Idle Icons</h1>
+          <img className="brand-main-icon" width="195px" src={idleIcons}></img>
           <p>Get to know the brand</p>
             <div className="brand-icon-box">{showIcons}</div>
-          </div>
-          <p>Designed by Just Soup</p>
+         
+          <p className="brand-justsoup">Designed by Just Soup</p>
           <div onClick={this.props.hideBrand} className="close-brand">
           <p>Back to home</p>
           <img className="dots-img-brand" src={dots}></img>
+          </div>
           </div>
         </div>
     );
