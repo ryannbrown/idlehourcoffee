@@ -6,12 +6,12 @@ import React, { Component } from "react";
 import "./style.css";
 import idleIcons from "../../media/idleicons.png";
 import dots from "../../media/half-dots.png";
-import clock from "../../media/clock-icon-white.png";
-import cup from "../../media/cup-icon-white.png";
-import flag from "../../media/flag-icon-white.png";
-import latte from "../../media/latte-art-icon-white.png";
-import star from "../../media/star-icon-white.png";
-import tamp from "../../media/tamp-icon-white.png";
+import clock from "../../media/Black-Comp-Icons/clock-icon-white-ALT.png";
+import cup from "../../media/Black-Comp-Icons/cup-icon-white-ALT.png";
+import flag from "../../media/Black-Comp-Icons/flag-icon-white-ALT.png";
+import latte from "../../media/Black-Comp-Icons/latte-art-icon-white-ALT.png";
+import star from "../../media/Black-Comp-Icons/star-icon-white-ALT.png";
+import tamp from "../../media/Black-Comp-Icons/tamp-icon-white-ALT.png";
 // import starBackground from '../../media/star-background.png'
 
 export default class Brand extends Component {
