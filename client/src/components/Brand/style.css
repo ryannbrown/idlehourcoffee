@@ -1,0 +1,39 @@
+.brand-container{
+    margin:100px auto;
+}
+
+.dots-img-brand {
+    width: 25px;
+    position: absolute;
+    left: 50%;
+    bottom: -34px;
+    margin-left: -12.5px;
+}
+
+.brand-icon-box {
+margin:100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width:980px;
+  }
+
+  .brand-icon-container {
+    flex: 0 0 30%;
+    margin: 0px auto;
+  }
+
+  .brand-icon-container p {
+      color:white;
+      width:75%;
+      margin:0px auto;
+  }
+
+  .close-brand {
+      cursor:pointer;
+      margin: 5px;
+      color:#FAB105;
+  }
+
+  /* .brand-page p {
+    color: #ADADAD
+  } */

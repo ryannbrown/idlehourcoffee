@@ -2,6 +2,7 @@ import { Container, Nav, Button, Image, Row, Col } from 'react-bootstrap'
 import Navbar from 'react-bootstrap/Navbar'
 import React, { Component } from 'react';
 // import logo from './logo.svg';
+import Brand from "../../components/Brand"
 import HomeHero from "../../components/HomeHero/index"
 import HomeBio from "../../components/HomeBio/index"
 import HomeAction from "../../components/HomeAction/index"
@@ -22,7 +23,8 @@ export default class Homepage extends Component {
         this.state = {
             status: "top",
             isMobile: false,
-           height: '100vh'
+           height: '100vh',
+           showBrand: false
         };
     }
 
@@ -45,20 +47,34 @@ export default class Homepage extends Component {
           });
     }
 
+    showBrand = () => {
+        this.setState({showBrand: true})
+    }
+    hideBrand = () => {
+        this.setState({showBrand: false})
+    }
 
 
     render() {
+
+        const {showBrand} = this.state;
         return (
             <div>
-            <div className="homepage-content" style={{
-                // height: `20vh`, /* Fallback for browsers that do not support Custom Properties */
-                height: `${this.state.height}`
-            }}>
-                <HomeHero height={this.state.height}></HomeHero>
-
-            </div>
-                <Footer></Footer>
-            </div>
+                {showBrand ? 
+                <div>
+                    <Brand hideBrand={this.hideBrand}></Brand>
+                    </div> : <div>
+                    <div className="homepage-content" style={{
+                        // height: `20vh`, /* Fallback for browsers that do not support Custom Properties */
+                        height: `${this.state.height}`
+                    }}>
+                        <HomeHero height={this.state.height}></HomeHero>
+        
+                    </div>
+                        <Footer showBrand={this.showBrand}></Footer>
+                    </div>
+                }
+           </div>
         )
     }
 }
