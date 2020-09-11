@@ -67,7 +67,7 @@ export default class Footer extends Component {
             justifyContent: "center",
             position: `relative`,
             width: `350px`,
-            height: `50vh`,
+            height: `55vh`,
             //   cover no-repeat center center fixed`
           }}
           className="footer-div"
