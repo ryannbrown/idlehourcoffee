@@ -115,6 +115,9 @@
 }
 
 @media (max-width: 996px) {
+  img.nav-btn {
+    display:none;
+  }
   .nav-btn {
     position: absolute;
     left: 50%;
