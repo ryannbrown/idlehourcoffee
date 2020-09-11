@@ -47,13 +47,14 @@ img.icon {
 
 img.brand-icon {
   width: 95px;
+  margin-top: 30px;
 }
 
 .brand-icon-container p {
   font-size: 0.85rem;
   color: white;
-  width: 50%;
-  margin: 20px auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .brand-justsoup {
