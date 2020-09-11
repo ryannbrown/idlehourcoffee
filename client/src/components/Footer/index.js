@@ -67,7 +67,7 @@ export default class Footer extends Component {
             justifyContent: "center",
             position: `relative`,
             width: `350px`,
-            height: `50vh`,
+            height: `55vh`,
             //   cover no-repeat center center fixed`
           }}
           className="footer-div"
@@ -83,7 +83,7 @@ export default class Footer extends Component {
           </div>
             <div className="bottom-content">
               <div className="coming-soon">
-                <p>full site coming soon</p>
+                <p>Full site coming soon</p>
               </div>
               <a href="mailto:ryanbrownmedia@gmail.com,timsteeleallenl@gmail.com">
               <p className="justsoup">Powered by Just Soup</p>
