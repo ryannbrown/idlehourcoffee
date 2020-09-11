@@ -84,6 +84,14 @@ img.brand-icon {
   }
 }
 
+p.description-text {
+  font-size: 12px;
+}
+
+p.title-text {
+  font-size: 16px;
+}
+
 /* .brand-page p {
     color: #ADADAD
   } */

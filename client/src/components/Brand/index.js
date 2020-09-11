@@ -66,8 +66,8 @@ export default class Brand extends Component {
       var showIcons = this.state.icons.map((item, i) => (
         <div className="brand-icon-container">
           <img className="brand-icon" width="150px" src={item.icon}></img>
-          <p>{item.name}</p>
-          <p>{item.description}</p>
+          <p className="title-text">{item.name}</p>
+          <p className="description-text">{item.description}</p>
         </div>
       ));
     }
