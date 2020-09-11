@@ -35,6 +35,7 @@ img.icon {
 
 .brand-icon-box {
   margin: 0% auto;
+  padding-bottom:25px;
   display: flex;
   flex-wrap: wrap;
   max-width: 980px;
