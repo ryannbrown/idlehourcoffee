@@ -5,7 +5,7 @@ import React, { Component } from "react";
 // import HomeHero from "../../components/HomeHero/index"
 import "./style.css";
 import idleIcons from "../../media/idleicons.png";
-import dots from "../../media/dots.png";
+import dots from "../../media/half-dots.png";
 import clock from "../../media/clock-icon-white.png";
 import cup from "../../media/cup-icon-white.png";
 import flag from "../../media/flag-icon-white.png";
