@@ -46,7 +46,7 @@ img.icon {
 }
 
 img.brand-icon {
-  width: 110px;
+  width: 95px;
 }
 
 .brand-icon-container p {
@@ -85,11 +85,12 @@ img.brand-icon {
 }
 
 p.description-text {
-  font-size: 10px;
+  font-size: 12px;
+  letter-spacing: 0.05rem;
 }
 
 p.title-text {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* .brand-page p {
