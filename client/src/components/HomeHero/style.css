@@ -115,6 +115,9 @@
 }
 
 @media (max-width: 996px) {
+  img.nav-btn {
+    display:none;
+  }
   .nav-btn {
     position: absolute;
     left: 50%;
@@ -158,11 +161,17 @@
     margin-left: -150px;
     display: inline-block;
   }
+  .block.hero-directions-block {
+    margin-top: 25px;
 }
-@media (max-width: 400px) {
+}
+@media (max-width: 667px) {
   .block.hero-hours-block {
-    height: 175px;
+    height: 150px;
   }
+  .block.hero-directions-block {
+    margin-top: 25px;
+}
 }
 
 @media (max-width: 321px) {
