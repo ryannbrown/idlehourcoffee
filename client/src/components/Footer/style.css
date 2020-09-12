@@ -122,3 +122,31 @@
   text-decoration: none;
   color: white;
 }
+
+
+@media (max-height: 650px) and (min-width:400px) {
+  .bottom-content {
+    background-color:black;
+    position: fixed;
+    right:10px;
+    bottom: 0px;
+    color: white;
+}
+}
+
+@media (max-width: 667px) {
+img.icon {
+  width: 75px;
+}
+}
+
+
+@media (max-width: 321px) {
+.hero-content {
+  top: 30%;
+}
+.bottom-content {
+  position: absolute;
+  bottom: 25px !important;
+}
+}
