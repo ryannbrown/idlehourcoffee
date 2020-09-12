@@ -85,7 +85,7 @@ export default class Brand extends Component {
             <div className="coming-soon">
               <p>Full site coming soon</p>
             </div>
-            <a href="mailto:ryanbrownmedia@gmail.com,timsteeleallen@gmail.com">
+            <a href="mailto:ryanbrownmedia@gmail.com,timsteeleallen@gmail.com?subject=Websites">
               <p className="justsoup">Powered by Just Soup</p>
             </a>
           </div>
