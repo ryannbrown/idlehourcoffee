@@ -10,6 +10,7 @@ import blackStar from "../../media/blackstar.png";
 import heroImg from "../../media/background.jpg";
 import clock from "../../media/blackclock.png";
 import flag from "../../media/blackflag.png";
+import dots from "../../media/dots.png";
 // import arrow from "../../media/arrow.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteLeft, faGlassMartini } from "@fortawesome/free-solid-svg-icons";
@@ -78,24 +79,9 @@ export default class HomeHero extends Component {
             }}
           >
             <Image className="hero-logo" src={logo}></Image>
-            <div className="hero-content">
-              <div className="block hero-hours-block">
-                <img width="50x" src={clock}></img>
-                <p className="mb-2">Store Hours</p>
-                {/* <br></br> */}
-                <p>Monday - Sunday</p>
-                <p>7am - 7pm</p>
-              </div>
-              <div className="block hero-directions-block">
-                <img width="50px" src={flag}></img>
-                <p className="mb-2">Find us at</p>
-                {/* <br></br> */}
-                <p>1818 Oberlin Rd #103 </p>
-                <p>Raleigh, NC 27608</p>
-              </div>
-            </div>
           </Col>
         </Row>
+        <img className="menu-comp-dots" src={dots}></img>
       </div>
     );
   }

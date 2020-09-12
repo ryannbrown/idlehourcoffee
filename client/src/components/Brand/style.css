@@ -95,12 +95,12 @@ img.brand-icon {
     }
 }
 
-p.description-text {
+.brand-page .description-text {
   font-size: 12px;
   letter-spacing: 0.05rem;
 }
 
-p.title-text {
+.brand-page .title-text {
   font-size: 16px;
   margin-bottom: 10px;
 }

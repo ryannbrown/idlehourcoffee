@@ -3,10 +3,10 @@ import Navbar from 'react-bootstrap/Navbar'
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import Brand from "../../components/Brand"
+import Menu from "../../components/Menu"
+import HoursDirections from "../../components/HoursDirections"
+import HandRoasted from "../../components/HandRoasted"
 import HomeHero from "../../components/HomeHero/index"
-import HomeBio from "../../components/HomeBio/index"
-import HomeAction from "../../components/HomeAction/index"
-import HomeQuote from "../../components/HomeQuote/index"
 import Footer from "../../components/Footer/index.js"
 import './style.css';
 
@@ -71,6 +71,9 @@ export default class Homepage extends Component {
                         <HomeHero height={this.state.height}></HomeHero>
         
                     </div>
+                        <Menu></Menu>
+                        <HoursDirections></HoursDirections>
+                        <HandRoasted></HandRoasted>
                         <Footer showBrand={this.showBrand}></Footer>
                     </div>
                 }
