@@ -85,7 +85,11 @@ export default class Brand extends Component {
         className="brand-page"
       >
         <div className="brand-container">
-          <img onClick={this.props.hideBrand} className="left-arrow" src={leftArrow}></img>
+          <img
+            onClick={this.props.hideBrand}
+            className="left-arrow"
+            src={leftArrow}
+          ></img>
           <img className="brand-main-icon" width="195px" src={idleIcons}></img>
           <p>Get to know the brand</p>
           <div className="brand-icon-box">{showIcons}</div>
