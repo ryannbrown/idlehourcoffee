@@ -5,6 +5,7 @@ import React, { Component } from "react";
 // import HomeHero from "../../components/HomeHero/index"
 import "./style.css";
 import idleIcons from "../../media/idleicons.png";
+import leftArrow from "../../media/leftarrow.png";
 import dots from "../../media/half-dots.png";
 import clock from "../../media/Black-Comp-Icons/clock-icon-white-ALT.png";
 import cup from "../../media/Black-Comp-Icons/cup-icon-white-ALT.png";
@@ -84,6 +85,7 @@ export default class Brand extends Component {
         className="brand-page"
       >
         <div className="brand-container">
+          <img onClick={this.props.hideBrand} className="left-arrow" src={leftArrow}></img>
           <img className="brand-main-icon" width="195px" src={idleIcons}></img>
           <p>Get to know the brand</p>
           <div className="brand-icon-box">{showIcons}</div>
