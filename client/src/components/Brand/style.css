@@ -83,6 +83,7 @@ img.brand-icon {
   color: #fab105;
   width: 150px;
   margin: 0px auto;
+  margin-top: 50px;
 }
 
 @media (max-width: 667px) {
