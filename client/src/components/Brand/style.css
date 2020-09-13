@@ -34,10 +34,11 @@ img.icon {
 
 .left-arrow {
   cursor: pointer;
-  position: absolute;
-  left: 12%;
+  position: relative;
+  left: 8%;
+  float: left;
   width: 20px;
-  top: 25%;
+  top: 50px;
 }
 @media (max-width: 667px) {
   .left-arrow {
