@@ -52,6 +52,11 @@
     height: 67.5vh !important;
   }
 }
+@media (max-width: 321px) {
+  .footer-div {
+    height: 70vh !important;
+  }
+}
 .dots-img {
   width: 25px;
   position: absolute;
@@ -125,13 +130,13 @@
 
 
 @media (max-height: 650px) and (min-width:400px) {
-  .bottom-content {
+  /* .bottom-content {
     background-color:black;
     position: fixed;
     right:10px;
     bottom: 0px;
     color: white;
-}
+} */
 }
 
 @media (max-width: 667px) {
@@ -141,12 +146,12 @@ img.icon {
 }
 
 
-@media (max-width: 321px) {
+@media (max-width: 325px) {
 .hero-content {
   top: 30%;
 }
 .bottom-content {
   position: absolute;
-  bottom: 25px !important;
+  bottom: 5px !important;
 }
 }

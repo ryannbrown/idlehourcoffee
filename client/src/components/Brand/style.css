@@ -1,4 +1,7 @@
 .brand-page {
+  display:flex;
+  align-items:center;
+  justify-content:center;
   height: 100vh;
 }
 
@@ -12,9 +15,7 @@ img.icon {
   }
 }
 
-.brand-main-icon {
-  margin-top: 100px;
-}
+.brand-container{}
 
 .brand-container > p:first-of-type {
   color: white;
@@ -33,9 +34,22 @@ img.icon {
   margin-left: -12.5px;
 }
 
+.left-arrow {
+  cursor:pointer;
+  position: absolute;
+  left: 30%;
+  top: 25%;
+}
+@media (max-width:667px) {
+  .left-arrow {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+  }
+}
+
 .brand-icon-box {
-  margin: 10vh auto;
-  padding-bottom:25px;
+  margin-top:25px;
   display: flex;
   flex-wrap: wrap;
   max-width: 980px;

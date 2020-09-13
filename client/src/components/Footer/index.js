@@ -92,7 +92,7 @@ const {showBrand} = this.state;
               <div className="coming-soon">
                 <p>Full site coming soon</p>
               </div>
-              <a href="mailto:ryanbrownmedia@gmail.com,timsteeleallenl@gmail.com">
+              <a href="mailto:ryanbrownmedia@gmail.com,timsteeleallenl@gmail.com?subject=Websites">
                 <p className="justsoup">Powered by Just Soup</p>
               </a>
             </div>
