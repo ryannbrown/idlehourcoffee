@@ -95,6 +95,11 @@
   margin-bottom: 10px;
 }
 
+.contact-btn-link:hover {
+  border: 1px solid #fff;
+  background-color: #FAB105;
+}
+
 .justsoup {
   font-size: 0.5rem !important;
 }
