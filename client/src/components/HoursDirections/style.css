@@ -2,13 +2,14 @@
 height:100vh;
 width:100vw;
 background-color:#F5F5F5;
+display: flex;
+align-items: center;
 }
 
 .hd-content{
     display:flex;
     margin:0px auto;
     max-width:980px;
-    padding: 400px 250px; /*this isn't perfect*/
 }
 
 .hd-content div:first-child {

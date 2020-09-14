@@ -2,6 +2,8 @@
     height:100vh;
     width:100vw;
     background-color:white;
+    display: flex;
+    align-items: center;
 }
 
 .menu-comp-dots {
@@ -19,10 +21,9 @@
 }
 
 .menu-header {
-    padding-top:125px;
     display: flex;
     justify-content: space-between;
-    max-width:90%;
+    max-width:95%;
     margin:0px auto;
 }
 
