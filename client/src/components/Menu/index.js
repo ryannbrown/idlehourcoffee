@@ -84,6 +84,64 @@ showTheFood = () => {
         description: "Two shots of our house espresso.",
         price: "3.25",
       },
+      {
+        name: "CORTADO",
+        size: "4OZ",
+        description:
+          "Two shots of espresso layered with 2oz of lightly steamed milk.",
+        price: "3.25",
+      },
+      {
+        name: "ESPRESSO",
+        size: "2OZ",
+        description: "Two shots of our house espresso.",
+        price: "3.25",
+      },
+      {
+        name: "CORTADO",
+        size: "4OZ",
+        description:
+          "Two shots of espresso layered with 2oz of lightly steamed milk.",
+        price: "3.25",
+      },
+      {
+        name: "ESPRESSO",
+        size: "2OZ",
+        description: "Two shots of our house espresso.",
+        price: "3.25",
+      },
+      {
+        name: "CORTADO",
+        size: "4OZ",
+        description:
+          "Two shots of espresso layered with 2oz of lightly steamed milk.",
+        price: "3.25",
+      },
+      {
+        name: "ESPRESSO",
+        size: "2OZ",
+        description: "Two shots of our house espresso.",
+        price: "3.25",
+      },
+      {
+        name: "ESPRESSO",
+        size: "2OZ",
+        description: "Two shots of our house espresso.",
+        price: "3.25",
+      },
+      {
+        name: "CORTADO",
+        size: "4OZ",
+        description:
+          "Two shots of espresso layered with 2oz of lightly steamed milk.",
+        price: "3.25",
+      },
+      {
+        name: "ESPRESSO",
+        size: "2OZ",
+        description: "Two shots of our house espresso.",
+        price: "3.25",
+      },
     ];
 
   
