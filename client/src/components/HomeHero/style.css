@@ -84,10 +84,6 @@
     float: left;
   }
 
-  .home-img.col-md-12.col-sm-12 {
-    height: 1000px !important;
-  }
-
   .hero-content {
     position: absolute;
     top: 50%;
