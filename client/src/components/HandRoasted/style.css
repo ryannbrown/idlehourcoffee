@@ -1,4 +1,5 @@
 .hand-roasted-component{
+    position:relative;
     min-height:100vh;
     max-height:100%;
     display:flex;
@@ -28,6 +29,7 @@
 
 .hr-text{
     text-align:left;
+    padding:20px;
 }
 .hr-text p{
     text-align:left;
@@ -36,6 +38,21 @@
 
 .hr-text button {
     margin-top:30px;
+}
+
+.roasted-img{
+    width:60px;
+    margin-right:20px;
+}
+
+.hr-comp-dots{
+    width: 25px;
+    position: absolute;
+    left: 50%;
+    top:0%;
+    margin-top:-134px;
+    margin-left: -12.5px;
+    z-index: 9000;
 }
 
 .shop-btn-link {
@@ -64,10 +81,7 @@ button.shop-btn-link:hover {
     background-color: #FAB105;
 }
 
-.roasted-img{
-    width:125px;
-}
-@media(max-width:667px) {
+@media(max-width:992px) {
     .hr-content{
         flex-direction:column;
     }
@@ -78,9 +92,10 @@ button.shop-btn-link:hover {
         /* width: 250px; */
         flex-direction: column;
     }
-    .roasted-img{
-        width:75px;
+    .roasted-img{ 
+        margin:0;
     }
+   
     .hr-text p {
         width: 100%;
         
@@ -89,5 +104,7 @@ button.shop-btn-link:hover {
         width:100%;
         padding:30px;
     }
+
+
     
 }

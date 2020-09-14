@@ -31,7 +31,7 @@ export default class HandRoasted extends Component {
   render() {
     return (
       <div className="hand-roasted-component">
-           <img className="hd-comp-dots" src={dots}></img>
+           <img className="hr-comp-dots" src={dots}></img>
         <div className="hr-content">
         <div className="hr-text">
             <div className="hr-title">
