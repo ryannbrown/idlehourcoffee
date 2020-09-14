@@ -9,7 +9,7 @@ import logo from "../../media/ihlogo.png";
 import blackStar from "../../media/blackstar.png";
 import heroImg from "../../media/background.jpg";
 import clock from "../../media/blackclock.png";
-import latte from "../../media/latte-art-icon-black.png";
+import latte from "../../media/new-latte-art-nws.png";
 import dots from "../../media/dots.png";
 import beans from "../../media/beans.jpg";
 // import arrow from "../../media/arrow.png"
