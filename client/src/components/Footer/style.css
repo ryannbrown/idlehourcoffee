@@ -119,7 +119,7 @@
 @media (max-width: 667px) {
   .bottom-content {
     position: absolute;
-    bottom: 50px;
+    bottom: 5px;
   }
 }
 
