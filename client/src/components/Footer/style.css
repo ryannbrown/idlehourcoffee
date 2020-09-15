@@ -1,6 +1,5 @@
 .footer-div {
-  /* position:absolute;
-    top:25%; */
+  height:55vh;
 }
 
 /* .coming-soon {
@@ -138,6 +137,12 @@
     color: white;
 } */
 }
+
+@media (max-height: 815px) AND (min-width:600px) {
+  .footer-div {
+    height:600px !important
+  }
+  }
 
 @media (max-width: 667px) {
 img.icon {

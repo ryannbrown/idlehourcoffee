@@ -72,7 +72,7 @@ const {showBrand} = this.state;
               justifyContent: "center",
               position: `relative`,
               width: `350px`,
-              height: `55vh`,
+              // height: `55vh`,
               //   cover no-repeat center center fixed`
             }}
             className="footer-div"
