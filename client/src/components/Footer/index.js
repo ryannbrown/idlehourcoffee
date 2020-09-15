@@ -12,6 +12,7 @@ import flag from "../../media/flag-icon-white.png";
 import latte from "../../media/latte-art-icon-white.png";
 import star from "../../media/star-icon-white.png";
 import tamp from "../../media/tamp-icon-white.png";
+import jsLogo from "../../media/jswhite.png"
 // import starBackground from '../../media/star-background.png'
 
 export default class Footer extends Component {
@@ -92,7 +93,8 @@ const {showBrand} = this.state;
               <div className="coming-soon">
                 <p>Full site coming soon</p>
               </div>
-              <a href="mailto:team@justsoup.io?subject=Websites">
+              <a target="_blank" href="https://www.justsoup.io/">
+              <img width="20px" src={jsLogo}></img>
                 <p className="justsoup">Powered by Just Soup</p>
               </a>
             </div>
