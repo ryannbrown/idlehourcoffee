@@ -53,7 +53,7 @@ export default class HomeHero extends Component {
           </a>
         </div> */}
 
-        <img className="nav-btn" src={blackStar}></img>
+        {/* <img className="nav-btn" src={blackStar}></img> */}
         <Row className="hero-row">
           {/* <Col md={3}></Col> */}
 

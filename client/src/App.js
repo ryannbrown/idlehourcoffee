@@ -24,7 +24,7 @@ const history = createHistory({
 
   return (
     <div className="App">
-         {/* <Navigation/> */}
+         <Navigation/>
          <Router history = {history}>
            <Switch>
              {/* <Route path="/brand" component={Brand}/> */}

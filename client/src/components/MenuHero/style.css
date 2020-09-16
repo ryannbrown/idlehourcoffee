@@ -17,7 +17,7 @@
     width:100%;
 }
 .menu-hero-comp:hover {
-    transform: scale(1.2);
+    transform: scale(1.03);
     transition: ease-in-out .6s;
     z-index:50;
     /* overflow:hidden; */

@@ -24,8 +24,10 @@
 }
 
 .menu-parent {
-  max-width: 1000px;
-  margin: 0px auto;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0px auto;
+    margin-bottom: 100px;
 }
 
 .menu-header {
