@@ -28,20 +28,18 @@ export default class Menu extends Component {
     };
   }
 
-
-
-showTheDrinks = () => {
+  showTheDrinks = () => {
     this.setState({
-        showFood:false,
-        showDrinks:true
-    })
-}
-showTheFood = () => {
+      showFood: false,
+      showDrinks: true
+    });
+  };
+  showTheFood = () => {
     this.setState({
-        showDrinks:false,
-        showFood:true,
-    })
-}
+      showDrinks: false,
+      showFood: true
+    });
+  };
 
   componentDidMount() {
     const drinkItems = [
@@ -50,221 +48,210 @@ showTheFood = () => {
         size: "4OZ",
         description:
           "Two shots of espresso layered with 2oz of lightly steamed milk.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "ESPRESSO",
         size: "2OZ",
         description: "Two shots of our house espresso.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "CORTADO",
         size: "4OZ",
         description:
           "Two shots of espresso layered with 2oz of lightly steamed milk.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "ESPRESSO",
         size: "2OZ",
         description: "Two shots of our house espresso.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "CORTADO",
         size: "4OZ",
         description:
           "Two shots of espresso layered with 2oz of lightly steamed milk.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "ESPRESSO",
         size: "2OZ",
         description: "Two shots of our house espresso.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "CORTADO",
         size: "4OZ",
         description:
           "Two shots of espresso layered with 2oz of lightly steamed milk.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "ESPRESSO",
         size: "2OZ",
         description: "Two shots of our house espresso.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "CORTADO",
         size: "4OZ",
         description:
           "Two shots of espresso layered with 2oz of lightly steamed milk.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "ESPRESSO",
         size: "2OZ",
         description: "Two shots of our house espresso.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "CORTADO",
         size: "4OZ",
         description:
           "Two shots of espresso layered with 2oz of lightly steamed milk.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "ESPRESSO",
         size: "2OZ",
         description: "Two shots of our house espresso.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "ESPRESSO",
         size: "2OZ",
         description: "Two shots of our house espresso.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "CORTADO",
         size: "4OZ",
         description:
           "Two shots of espresso layered with 2oz of lightly steamed milk.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "ESPRESSO",
         size: "2OZ",
         description: "Two shots of our house espresso.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "ESPRESSO",
         size: "2OZ",
         description: "Two shots of our house espresso.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "ESPRESSO",
         size: "2OZ",
         description: "Two shots of our house espresso.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "CORTADO",
         size: "4OZ",
         description:
           "Two shots of espresso layered with 2oz of lightly steamed milk.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "ESPRESSO",
         size: "2OZ",
         description: "Two shots of our house espresso.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "ESPRESSO",
         size: "2OZ",
         description: "Two shots of our house espresso.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "ESPRESSO",
         size: "2OZ",
         description: "Two shots of our house espresso.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "CORTADO",
         size: "4OZ",
         description:
           "Two shots of espresso layered with 2oz of lightly steamed milk.",
-        price: "3.25",
+        price: "3.25"
       },
       {
         name: "ESPRESSO",
         size: "2OZ",
         description: "Two shots of our house espresso.",
-        price: "3.25",
-      },
+        price: "3.25"
+      }
     ];
-
-  
-
 
     const foodItems = [
       {
         name: "CAPRESE",
         size: "PANINI",
-        description:
-          "Tomato, mozzarella, fresh basil, pesto",
-        price: "10",
+        description: "Tomato, mozzarella, fresh basil, pesto",
+        price: "10"
       },
       {
         name: "Muffuletta",
-        size: "PANINI",
-        description: "Capicola, mortadella, provolone, aioli, creole olive relish",
-        price: "12",
-      },
-      {
-        name: "CAPRESE",
         size: "PANINI",
         description:
-          "Tomato, mozzarella, fresh basil, pesto",
-        price: "10",
+          "Capicola, mortadella, provolone, aioli, creole olive relish",
+        price: "12"
       },
       {
-        name: "Muffuletta",
-        size: "PANINI",
-        description: "Capicola, mortadella, provolone, aioli, creole olive relish",
-        price: "12",
-      },
-      {
-        name: "CAPRESE",
-        size: "PANINI",
+        name: "BANH",
+        size: "MI",
         description:
-          "Tomato, mozzarella, fresh basil, pesto",
-        price: "10",
+          "Vietnamese cured meats, patte, cucumbers, cilantro, pickled relish, jalapeno, fresh black pepper",
+        price: "10"
       },
       {
-        name: "Muffuletta",
-        size: "PANINI",
-        description: "Capicola, mortadella, provolone, aioli, creole olive relish",
-        price: "12",
-      },
-      {
-        name: "CAPRESE",
-        size: "PANINI",
+        name: "SALMON",
+        size: "LOX",
         description:
-          "Tomato, mozzarella, fresh basil, pesto",
-        price: "10",
+          "Cured salmon, cream cheese, capers, red onion, frisee lettuce, tomato, Bold everything bagel",
+        price: "12"
       },
       {
-        name: "Muffuletta",
-        size: "PANINI",
-        description: "Capicola, mortadella, provolone, aioli, creole olive relish",
-        price: "12",
+        name: "GRILLED",
+        size: "CHEESE",
+        description: "Assorted cheese, Union special bread",
+        price: "7"
       },
       {
-        name: "Muffuletta",
-        size: "PANINI",
-        description: "Capicola, mortadella, provolone, aioli, creole olive relish",
-        price: "12",
+        name: "THE",
+        size: "ITALIAN",
+        description: "Prosciutto, olive oil, heirloom tomato, arugula",
+        price: "9"
       },
-     
+      {
+        name: "THE",
+        size: "G.O.A.T",
+        description:
+          "Preserved fig, goat cheese, lemon zest, frisee, bergamot oil",
+        price: "9"
+      },
+      {
+        name: "THE",
+        size: "NORWEGIAN",
+        description:
+          "Smoked Trout, Nuefchatel cheese, dill, house crafted pickles",
+        price: "9"
+      }
     ];
 
-
     this.setState({
-        drinkItems: drinkItems,
-        foodItems: foodItems,
-      });
-   
+      drinkItems: drinkItems,
+      foodItems: foodItems
+    });
   }
 
   render() {
@@ -273,10 +260,10 @@ showTheFood = () => {
       var showItems = this.state.drinkItems.map((item, i) => (
         <div className="menu-item-container">
           <div className="menu-left">
-          <div className="menu-stay">
-            <p className="menu-name">{item.name}</p>
-            <p className="menu-size">{item.size}</p>
-              </div>
+            <div className="menu-stay">
+              <p className="menu-name">{item.name}</p>
+              <p className="menu-size">{item.size}</p>
+            </div>
             <p className="menu-description">{item.description}</p>
           </div>
           <div className="menu-right">
@@ -289,10 +276,10 @@ showTheFood = () => {
       var showItems = this.state.foodItems.map((item, i) => (
         <div className="menu-item-container">
           <div className="menu-left">
-          <div className="menu-stay">
-            <p className="menu-name">{item.name}</p>
-            <p className="menu-size">{item.size}</p>
-              </div>
+            <div className="menu-stay">
+              <p className="menu-name">{item.name}</p>
+              <p className="menu-size">{item.size}</p>
+            </div>
             <p className="menu-description">{item.description}</p>
           </div>
           <div className="menu-right">
@@ -311,14 +298,24 @@ showTheFood = () => {
               <p>Menu</p>
             </div>
             <div className="menu-options">
-                {this.state.showDrinks? <p className="active" onClick={this.showTheDrinks}>Coffee</p> :
-                (<p onClick={this.showTheDrinks}>Coffee</p>)}
-            {this.state.showFood?  <p className="active" onClick={this.showTheFood}>Food</p> : (<p onClick={this.showTheFood}>Food</p>) }
+              {this.state.showDrinks ? (
+                <p className="active" onClick={this.showTheDrinks}>
+                  Coffee
+                </p>
+              ) : (
+                <p onClick={this.showTheDrinks}>Coffee</p>
+              )}
+              {this.state.showFood ? (
+                <p className="active" onClick={this.showTheFood}>
+                  Food
+                </p>
+              ) : (
+                <p onClick={this.showTheFood}>Food</p>
+              )}
             </div>
           </div>
-     <div className="flex-menu-parent">{showItems}</div>
+          <div className="flex-menu-parent">{showItems}</div>
         </div>
-       
       </div>
     );
   }
