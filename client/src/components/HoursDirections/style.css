@@ -37,14 +37,28 @@ justify-content: center;
 
 
 .hd-block {
-    padding: 50px;
-    width:275px;
+    padding:20px;
+    width:320px;
     /* margin: 0px auto; */
+}
+
+@media(max-width:667px) {
+    .hd-block{
+    width:auto;
+    }
 }
 
 .hd-parent  > h1 {
 margin:25px;
 }
+
+@media(min-width:667px){
+    .hd-parent > h1{
+        margin-bottom:50px;
+    }
+}
+
+
 
 
 .hd-comp-dots {

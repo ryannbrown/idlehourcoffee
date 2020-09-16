@@ -1,29 +1,4 @@
-/* a.tagline.navbar-brand {
-    display: inherit;
-    font-size:.75em;
-}
 
-.menu-icon {
-    position:fixed;
-    z-index:550;
-}
-
-.nav-brand a {
-    text-align:center;
-}
-
-.title{
-    position:fixed;
-    margin:0px auto;
-    width:100%;
-    z-index:500;
-}
-
-
-span.MuiTypography-root.MuiListItemText-primary.MuiTypography-body1.MuiTypography-displayBlock  {
-    color:black;
-}
-*/
 .navbar-brand {
    padding-left: 3rem;
 } 
@@ -33,14 +8,11 @@ span.MuiTypography-root.MuiListItemText-primary.MuiTypography-body1.MuiTypograph
     background-color:transparent !important;
 }
 
-/* .navbar-light .navbar-nav {
-    color:white;
-} */
-
 
 .navbar {
     z-index:999;
     justify-content: center;
+    margin-right: 50px;
 }
 
 
@@ -53,6 +25,7 @@ span.MuiTypography-root.MuiListItemText-primary.MuiTypography-body1.MuiTypograph
 .navbar-light .navbar-nav .nav-link {
     color:#ffffff7a;
     font-weight:400;
+font-size:12px;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
@@ -67,7 +40,7 @@ span.MuiTypography-root.MuiListItemText-primary.MuiTypography-body1.MuiTypograph
 }
 
 .nav-link {
-    margin: 0px 18px;
+    margin: 0px 8px;
 }
 
 .nav-arrow{
@@ -86,15 +59,6 @@ span.MuiTypography-root.MuiListItemText-primary.MuiTypography-body1.MuiTypograph
 }
 
 
-@media (max-width:667px) {
-    .justify-content-center.navbar-nav {
-        display:none;
-    }
-
-    .fixed-top {
-        height:75px;
-    }
-}
 
 
 .navbar-light .navbar-nav .nav-link {
@@ -104,6 +68,7 @@ span.MuiTypography-root.MuiListItemText-primary.MuiTypography-body1.MuiTypograph
 
 .navbar-expand-md .navbar-collapse {
     justify-content: flex-end;
+    margin-top: 15.5px;
 }
 
 
@@ -136,6 +101,17 @@ span.MuiTypography-root.MuiListItemText-primary.MuiTypography-body1.MuiTypograph
         height: 50px;
     }
 
+
+    
+@media (max-width:667px) {
+    .justify-content-center.navbar-nav {
+        /* display:none; */
+    }
+
+    .fixed-top {
+        height:75px;
+    }
+}
 
     @media (max-width:960px) {
         .navbar-light .navbar-brand {

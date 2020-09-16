@@ -1,6 +1,7 @@
 
 import { Container, Nav, Button, Image, NavDropdown } from 'react-bootstrap'
 import Navbar from 'react-bootstrap/Navbar'
+import { HashLink as Link } from 'react-router-hash-link';
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './style.css';
@@ -40,15 +41,14 @@ export default class Navigation extends Component {
 
     return (
         <Navbar expand="md">
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
              <img className="nav-btn" src={blackStar}></img>
              </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" style={{backgroundImage: 'url(${blackStar}'}} />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Menu</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
+            <Nav.Link href="/menu">Menu</Nav.Link>
+            <Nav.Link href="#hours">Hours</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
