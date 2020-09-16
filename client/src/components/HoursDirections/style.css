@@ -1,23 +1,32 @@
-.hours-directons-component {
+.hours-directions-component {
+    position:relative;
     min-height:100vh;
     max-height:100%;
 background-color:#F5F5F5;
 display: flex;
 align-items: center;
-margin:100px 0px;
+justify-content: center;
+/* margin:100px 0px; */
+}
+
+.hd-content-parent{
+    position:absolute;
+    left:50%;
+    top:50%;
 }
 
 .hd-content{
     display:flex;
-    margin:0px auto;
-    max-width:980px;
+    /* margin:0px auto;
+    max-width:980px; */
+    justify-content: center;
 }
 
 .hd-content div:first-child {
     border-right: 1.5px solid #fab105;
 }
 .hd-block > p {
-    font-size:1.5rem;
+    font-size:1.25rem;
 }
 
 @media (max-width:667px) {
@@ -29,17 +38,22 @@ margin:100px 0px;
 
 .hd-block {
     padding: 50px;
-    margin: 0px auto;
+    width:275px;
+    /* margin: 0px auto; */
+}
+
+.hd-parent  > h1 {
+margin:25px;
 }
 
 
-.hd-comp-dots{
+.hd-comp-dots {
     width: 25px;
-    /* position: absolute; */
-    left: 50%;
-    bottom: 0%;
-    margin-top:-34px;
-    margin-left: -12.5px;
+    position: absolute;
+    /* left: 50%; */
+    top: 0%;
+    margin-top: -34px;
+    /* margin-left: -12.5px; */
     z-index: 9000;
 }
 

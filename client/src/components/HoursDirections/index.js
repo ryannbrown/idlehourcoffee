@@ -29,22 +29,26 @@ export default class HoursDirections extends Component {
 
   render() {
     return (
-      <div className="hours-directons-component">
-           <img className="hd-comp-dots" src={dots}></img>
-        <div className="hd-content">
-          <div className=" hd-block">
-            <img width="50x" src={clock}></img>
-            <p className="mb-2">Store Hours</p>
-            {/* <br></br> */}
-            <p>Monday - Sunday</p>
-            <p>7am - 7pm</p>
-          </div>
-          <div className=" hd-block">
-            <img width="50px" src={flag}></img>
-            <p className="mb-2">Find us at</p>
-            {/* <br></br> */}
-            <p>1818 Oberlin Rd #103 </p>
-            <p>Raleigh, NC 27608</p>
+      <div className="hours-directions-component">
+        
+        <img className="hd-comp-dots" src={dots}></img>
+        <div className="hd-parent">
+          <h1>Come find us!</h1>
+          <div className="hd-content">
+            <div className="hd-block">
+              <img width="50x" src={clock}></img>
+              <p className="mb-2">Store Hours</p>
+              {/* <br></br> */}
+              <p>Monday - Sunday</p>
+              <p>7am - 7pm</p>
+            </div>
+            <div className="hd-block">
+              <img width="50px" src={flag}></img>
+              <p className="mb-2">Find us at</p>
+              {/* <br></br> */}
+              <p>1818 Oberlin Rd #103 </p>
+              <p>Raleigh, NC 27608</p>
+            </div>
           </div>
         </div>
       </div>
