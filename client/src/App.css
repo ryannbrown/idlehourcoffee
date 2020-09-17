@@ -6,6 +6,16 @@
   font-family: 'adelle';
 } */
 
+a {
+  text-decoration:none;
+  color:inherit;
+}
+a:hover{
+  text-decoration:none;
+  color:inherit;
+  opacity:.5;
+}
+
 .row {
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -36,7 +46,7 @@ p {
 }
 
 .App {
-  text-align: center;
+  /* text-align: center; */
   overflow: hidden !important;
 }
 

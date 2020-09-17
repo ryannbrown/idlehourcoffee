@@ -51,6 +51,7 @@ export default class MenuHero extends Component {
   render() {
     return (
         <div className="menu-hero-comp-parent">
+        {/* <img className="hd-comp-dots" src={dots}></img> */}
       <div onClick={this.navTo} className="menu-hero-comp"
             style={{
                 backgroundImage: `url(${heroImg})`,

@@ -9,6 +9,7 @@ import HandRoasted from "../../components/HandRoasted"
 import HomeHero from "../../components/HomeHero/index"
 import Footer from "../../components/Footer/index.js"
 import './style.css';
+import ScrollIntoView from 'react-scroll-into-view'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuoteLeft, faGlassMartini } from '@fortawesome/free-solid-svg-icons'
@@ -72,7 +73,7 @@ export default class Homepage extends Component {
         
                     </div>
                         <MenuHero></MenuHero>
-                        <HoursDirections></HoursDirections>
+                        <ScrollIntoView selector="#hours"><HoursDirections></HoursDirections></ScrollIntoView>
                         <HandRoasted></HandRoasted>
                         <Footer showBrand={this.showBrand}></Footer>
                     </div>

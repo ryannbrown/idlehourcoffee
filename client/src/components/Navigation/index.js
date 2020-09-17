@@ -6,6 +6,7 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './style.css';
 import blackStar from "../../media/blackstar.png"
+import ScrollIntoView from 'react-scroll-into-view'
 // import { Drawer } from '@material-ui/core';
 // import TemporaryDrawer from '../Drawer/index'
 export default class Navigation extends Component {
@@ -40,7 +41,7 @@ export default class Navigation extends Component {
 
 
     return (
-        <Navbar expand="md">
+        <Navbar expand="md" style={{ backgroundColor:"transparent"}}>
         <Navbar.Brand href="/">
              <img className="nav-btn" src={blackStar}></img>
              </Navbar.Brand>
@@ -48,7 +49,7 @@ export default class Navigation extends Component {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="">
             <Nav.Link href="/menu">Menu</Nav.Link>
-            <Nav.Link href="#hours">Hours</Nav.Link>
+            <ScrollIntoView alignToTop selector="#hours"><Nav.Link>Hours</Nav.Link></ScrollIntoView>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

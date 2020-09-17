@@ -46,20 +46,7 @@ export default class HomeHero extends Component {
 
   render() {
     return (
-      <div className="inner">
-        {/* <div className="cta-nav-btn">
-          <a href="/contact">
-          <button className="contact-btn-link">Contact us</button>
-          </a>
-        </div> */}
-
-        {/* <img className="nav-btn" src={blackStar}></img> */}
-        <Row className="hero-row">
-          {/* <Col md={3}></Col> */}
-
-          <Col
-            sm={12}
-            md={12}
+          <div
             className="home-img"
             style={{
               backgroundImage: `url(${heroImg})`,
@@ -71,18 +58,18 @@ export default class HomeHero extends Component {
               backgroundRepeat: `no-repeat`,
               // backgroundAttachment: `fixed`,
               height: `${this.props.height}`,
+              maxHeight:'100vh',
               // maxHeight: '-webkit-fill-available',
               display: `flex`,
               alignItems: `center`,
-              position: `relative`
+              position: `relative`,
+              zIndex:'50'
               //   cover no-repeat center center fixed`
             }}
           >
             <Image className="hero-logo" src={logo}></Image>
-          </Col>
-        </Row>
-        <img className="menu-comp-dots" src={dots}></img>
-      </div>
+            <img className="hero-comp-dots" src={dots}></img>
+          </div>
     );
   }
 }

@@ -48,6 +48,10 @@ justify-content: center;
     }
 }
 
+.hd-parent {
+    text-align:center;
+}
+
 .hd-parent  > h1 {
 margin:25px;
 }
