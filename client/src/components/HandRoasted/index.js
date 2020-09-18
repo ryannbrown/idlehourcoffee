@@ -56,6 +56,7 @@ export default class HandRoasted extends Component {
         >
           <div className="hr-content">
             <img></img>
+            {/* <p>Our</p> */}
             <p>Hand roasted</p>
             <p>small batch coffee</p>
             <button className="shop-btn-link">Coming Soon</button>

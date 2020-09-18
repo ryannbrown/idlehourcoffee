@@ -48,8 +48,11 @@ export default class Navigation extends Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav" style={{backgroundImage: 'url(${blackStar}'}} />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="">
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/menu">Menu</Nav.Link>
-            <ScrollIntoView alignToTop selector="#hours"><Nav.Link>Hours</Nav.Link></ScrollIntoView>
+            {/* <ScrollIntoView alignToTop selector="/#hours"> */}
+              <Nav.Link href="/#hours">Hours</Nav.Link>
+              {/* </ScrollIntoView> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>
