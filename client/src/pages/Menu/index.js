@@ -65,13 +65,13 @@ export default class Menu extends Component {
       },
       {
         name: "AMERICANO",
-        size: "4OZ",
+        size: "12OZ",
         description: "Espresso with hot water",
         price: "3.0",
       },
       {
         name: "MACCHIATO",
-        size: "2OZ",
+        size: "3OZ",
         description: "Frothed milk with espresso",
         price: "3.5",
       },
@@ -109,7 +109,7 @@ export default class Menu extends Component {
       },
       {
         name: "MATCHA SHOT",
-        size: "1OZ",
+        size: "2OZ",
         description:
           "A tea composed of finely ground powder and specially grown green tea leaves",
         price: "4.0",
@@ -417,7 +417,7 @@ export default class Menu extends Component {
 
             {showDrinks && (
               <div>
-                <p className="size-increase"><i>Size up 12oz to 16oz... + $1</i></p>
+                <p className="size-increase"><i> 12oz {'->'} 16oz... + $1</i></p>
                 <div className="flex-menu-parent">{drinkRender}</div>
               </div>
             )}
