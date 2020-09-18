@@ -1,0 +1,122 @@
+.hand-roasted-component{
+    position:relative;
+    min-height:100vh;
+    max-height:100%;
+    display:flex;
+    align-items:center;
+    /* margin:100px 0px; */
+    /* margin-top:-100px; */
+}
+
+
+.hr-content{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    max-width:980px;
+    margin:0px auto;
+}
+
+.hr-content p {
+    padding:5px;
+    font-size:2rem;
+    font-weight:300;
+}
+.hr-text{
+    width:50%;
+}
+
+.hr-title{
+    display:flex;
+    align-items:center;
+    text-align:left;
+}
+/* .hr-image{
+    width:50%;
+} */
+
+.hr-text{
+    text-align:left;
+    padding:20px;
+}
+.hr-text p{
+    text-align:left;
+    /* margin: 15px 0px; */
+}
+
+.hr-text button {
+    margin-top:30px;
+}
+
+.roasted-img{
+    width:60px;
+    margin-right:20px;
+}
+
+.hr-comp-dots{
+    width: 25px;
+    position: absolute;
+    left: 50%;
+    top:0%;
+    margin-top:-34px;
+    margin-left: -12.5px;
+    z-index: 9000;
+}
+
+.shop-btn-link {
+    margin-top:20px;
+    display: inline-block;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    /* color: white; */
+    /* background-color: transparent; */
+    /* border: 1px solid #FAB105; */
+    margin-bottom: 10px;
+    /* border: 1px solid #fff; */
+    background-color: #FAB105;
+}
+
+button.shop-btn-link:hover {
+    /* border: 1px solid #FAB105; */
+    color:#FAB105;
+    background-color: white;
+}
+
+@media(max-width:992px) {
+    .hr-content{
+        flex-direction:column;
+    }
+    .hr-title {
+        display: flex;
+        align-items: center;
+        /* text-align: center; */
+        /* width: 250px; */
+        flex-direction: column;
+    }
+    .roasted-img{ 
+        margin:0;
+    }
+   
+    .hr-text p {
+        width: 100%;
+        
+    }
+    .hr-text{
+        width:100%;
+        padding:30px;
+    }
+
+
+    
+}

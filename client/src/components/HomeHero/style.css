@@ -1,10 +1,10 @@
-.nav-btn {
+/* .nav-btn {
   position: absolute;
   left: 2%;
   top: 2%;
   z-index: 750;
   width: 75px;
-}
+} */
 
 .hero-logo {
   position: absolute;
@@ -63,13 +63,13 @@
 }
 
 @media (min-width: 1500px) {
-  .nav-btn {
+  /* .nav-btn {
     position: absolute;
     left: 5%;
     top: 5%;
     z-index: 750;
     width: 75px;
-  }
+  } */
 
   .hero-logo {
     position: absolute;
@@ -111,17 +111,15 @@
 }
 
 @media (max-width: 996px) {
-  img.nav-btn {
-    display:none;
-  }
-  .nav-btn {
+
+  /* .nav-btn {
     position: absolute;
     left: 50%;
     margin-left: -37.5px;
     top: 5%;
     z-index: 750;
     width: 75px;
-  }
+  } */
   .hero-logo {
     position: absolute;
     top: 15%;
@@ -186,4 +184,26 @@
   img.icon {
     width: 75px;
   }
+}
+
+
+
+@media (min-width: 960px) AND (max-width:1200px) {
+  .navbar-brand{
+      display:inline-block !important;
+  }
+}
+
+
+div#basic-navbar-nav {
+  justify-content: flex-end;
+}
+
+.hero-comp-dots {
+  width: 25px;
+  position: absolute;
+  left: 50%;
+  bottom: -34px;
+  margin-left: -12.5px;
+  z-index: 9000;
 }

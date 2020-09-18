@@ -6,6 +6,16 @@
   font-family: 'adelle';
 } */
 
+a {
+  text-decoration:none;
+  color:inherit;
+}
+a:hover{
+  text-decoration:none;
+  color:inherit;
+  opacity:.5;
+}
+
 .row {
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -36,7 +46,7 @@ p {
 }
 
 .App {
-  text-align: center;
+  /* text-align: center; */
   overflow: hidden !important;
 }
 
@@ -47,7 +57,7 @@ h2 {
 }
 
 h1 {
-  margin: 0;
+  font-weight:300;
 }
 
 p,
@@ -125,6 +135,7 @@ hr {
   border: 0;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #fff;
+  /* font-weight:300 !important; */
 }
 
 @media (max-width: 667px) {
