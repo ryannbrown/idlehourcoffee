@@ -53,103 +53,103 @@ export default class Menu extends Component {
     const drinkItems = [
       {
         name: "HOT COFFEE",
-        size: "10OZ",
-        description: "Drip Coffee",
+        size: "12OZ",
+        description: "Beans by Methodical, located in Greenville, SC",
         price: "3.0",
       },
       {
         name: "ESPRESSO",
         size: "2OZ",
-        description: "Two shots of our house espresso.",
+        description: "Two shots of our house espresso",
         price: "3.0",
       },
       {
         name: "AMERICANO",
         size: "4OZ",
-        description: "Espresso with hot water.",
+        description: "Espresso with hot water",
         price: "3.0",
       },
       {
         name: "MACCHIATO",
         size: "2OZ",
-        description: "Frothed milk with espresso.",
+        description: "Frothed milk with espresso",
         price: "3.5",
       },
       {
         name: "CAPPUCCINO",
-        size: "4OZ",
-        description: "Espresso topped with hot milk and froth.",
+        size: "8OZ",
+        description: "Espresso topped with hot milk and froth",
         price: "4.0",
       },
       {
         name: "LATTE",
-        size: "2OZ",
+        size: "12OZ",
         description:
-          "Hot milk poured over espresso, and topped with froth. Various flavors available.",
+          "Hot milk poured over espresso, and topped with froth. Various flavors available",
         price: "4.5",
       },
       {
         name: "MOCHA",
-        size: "4OZ",
+        size: "12OZ",
         description:
-          "Layers of espresso, steamed milk, and chocolate, and foam.",
+          "Layers of espresso, steamed milk, and chocolate, and foam",
         price: "5.0",
       },
       {
         name: "POUR OVER",
-        size: "2OZ",
-        description: "Our coffee of the day, served by pour over.",
+        size: "12OZ",
+        description: "Methodical's Play Nice blend is available year around, with rotating blends available as well",
         price: "4.0",
       },
       {
         name: "HOT TEA",
-        size: "4OZ",
-        description: "Your tea of choice.",
+        size: "12OZ",
+        description: "Your tea of choice",
         price: "4.0",
       },
       {
         name: "MATCHA SHOT",
         size: "1OZ",
         description:
-          "A tea composed of finely ground powder and specially grown green tea leaves.",
+          "A tea composed of finely ground powder and specially grown green tea leaves",
         price: "4.0",
       },
       {
         name: "MATCHA LATTE",
-        size: "4OZ",
-        description: "Green tea and shot of espresso.",
+        size: "12OZ",
+        description: "Green tea and shot of espresso",
         price: "4.5",
       },
       {
         name: "CHAI LATTE",
-        size: "2OZ",
+        size: "12OZ",
         description:
-          "Black tea combined with milk, water, and a mixture of aromatic herbs and spices.",
+          "Black tea combined with milk, water, and a mixture of aromatic herbs and spices",
         price: "4.5",
       },
       {
         name: "VIETNAMESE COFFEE",
-        size: "2OZ",
+        size: "16OZ",
         description:
-          "Ground dark roast cofffee served by a metal Vietnamese drip filter.",
+          "Jimmy's mom's homemade recipe of ground dark roast cofffee served by a metal Vietnamese drip filter.",
         price: "4.5",
       },
       {
         name: "COLD BREW",
-        size: "4OZ",
-        description: "Ground coffee with cool water.",
+        size: "12OZ",
+        description: "Ground coffee brewed with cool water, creating a smooth and refreshing flavor without the bitterness",
         price: "4.0",
       },
       {
         name: "NITRO",
-        size: "2OZ",
+        size: "12OZ",
         description:
-          "Cold brew coffee charged with nitrogen, giving it a rich, creamy head of foam.",
+          "Cold brew coffee charged with nitrogen, giving it a rich, creamy head of foam",
         price: "5.0",
       },
       {
         name: "ICED TEA",
-        size: "2OZ",
+        size: "12OZ",
         // description: "",
         price: "4.0",
       },
@@ -166,15 +166,8 @@ export default class Menu extends Component {
         name: "SALMON",
         size: "LOX",
         description:
-          "Cured salmon, cream cheese, capers, red onion, frisee lettuce, tomato BOLD everything bagel",
+          "Cured salmon, cream cheese, capers, red onion, frisee lettuce, tomato on a BOLD everything bagel",
         price: "12.0",
-      },
-      {
-        name: "THE",
-        size: "G.O.A.T",
-        description:
-          "Preserved fig, goat cheese, lemon zest, frisee, bergamot oil",
-        price: "9.0",
       },
       {
         name: "MUFFULETTA",
@@ -193,7 +186,7 @@ export default class Menu extends Component {
         name: "BANH",
         size: "MI",
         description:
-          "Vietnamese cured meats, pate, cucumbers, cilantro, pickled relish, jalapeño, fresh black pepper",
+          "Our homemade recipe of Vietnamese cured meats, pate, cucumbers, cilantro, pickled relish, jalapeño, fresh black pepper",
         price: "10.0",
       },
     ];
@@ -207,10 +200,10 @@ export default class Menu extends Component {
       },
       {
         name: "THE",
-        size: "NORWEGIAN",
+        size: "G.O.A.T",
         description:
-          "Smoked trout, Neufchatel cheese, dill, house crafted pickles",
-        price: "12.0",
+          "Preserved fig, goat cheese, lemon zest, frisee, bergamot oil",
+        price: "9.0",
       },
       {
         name: "THE",
@@ -231,13 +224,13 @@ export default class Menu extends Component {
       {
         name: '"TEPUY"',
         size: "Donut",
-        description: "A featured donut from our friend at Tepuy Donuts.",
+        description: "A featured donut from our friend at Tepuy Donuts",
         price: "3.5",
       },
       {
         name: "PASTRY",
         size: "",
-        description: "Enjoy a pastry from our selection.",
+        description: "Enjoy a pastry from our selection",
         price: "4.0",
       },
       {
@@ -256,7 +249,7 @@ export default class Menu extends Component {
         name: '"BOLD"',
         size: "Bagel",
         description:
-          "We feature New York Style bagels from Bold Bagels here in the Triangle.",
+          "We feature New York Style bagels from BOLD Bagels here in the Triangle",
         price: "3.0",
       },
     ];
@@ -424,6 +417,7 @@ export default class Menu extends Component {
 
             {showDrinks && (
               <div>
+                <p className="size-increase"><i>Size up 12oz to 16oz... + $1</i></p>
                 <div className="flex-menu-parent">{drinkRender}</div>
               </div>
             )}

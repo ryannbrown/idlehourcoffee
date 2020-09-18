@@ -136,3 +136,11 @@
 /* .menu-right {
     display:flex;
 } */
+
+
+.size-increase{
+  text-align:center;
+  font-size:0.85rem;
+  color:#adadad;
+
+}
