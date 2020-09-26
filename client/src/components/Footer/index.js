@@ -90,9 +90,6 @@ const {showBrand} = this.state;
               {/* <Image className="comet-image" src={whiteComet}></Image> */}
             </div>
             <div className="bottom-content">
-              <div className="coming-soon">
-                <p>Full site coming soon</p>
-              </div>
               <a target="_blank" href="https://www.justsoup.io/">
               <img width="20px" src={jsLogo}></img>
                 <p className="justsoup">Powered by Just Soup</p>
