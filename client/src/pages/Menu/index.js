@@ -111,13 +111,13 @@ export default class Menu extends Component {
         name: "MATCHA SHOT",
         size: "2OZ",
         description:
-          "A tea composed of finely ground powder and specially grown green tea leaves",
+          "A powerful shot of Matcha",
         price: "4.0",
       },
       {
         name: "MATCHA LATTE",
         size: "12OZ",
-        description: "Green tea and shot of espresso",
+        description: "A tea composed of finely ground powder and specially grown green tea leaves",
         price: "4.5",
       },
       {
@@ -398,7 +398,7 @@ export default class Menu extends Component {
                   onClick={this.showTheDrinks}
                   className={showDrinks ? "active" : ""}
                 >
-                  Coffee
+                  Drinks
                 </p>
                 <p
                   onClick={this.showTheFood}
