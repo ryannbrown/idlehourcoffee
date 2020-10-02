@@ -6,6 +6,7 @@ import Brand from "../../components/Brand";
 import MenuHero from "../../components/MenuHero";
 import HoursDirections from "../../components/HoursDirections";
 import HandRoasted from "../../components/HandRoasted";
+import Collage from "../../components/Collage";
 import HomeHero from "../../components/HomeHero/index";
 import Footer from "../../components/Footer/index.js";
 import "./style.css";
@@ -78,6 +79,7 @@ export default class Homepage extends Component {
               {/* </ScrollIntoView> */}
             </a>
             <HandRoasted></HandRoasted>
+            <Collage></Collage>
             <Footer showBrand={this.showBrand}></Footer>
           </div>
         )}
