@@ -46,6 +46,9 @@
     .collage-img:nth-child(1){
         background-position-x:65%;
     }
+    .collage-wrapper{
+        margin:0px 15px;
+    }
 }
 
 @media(max-width:321px) {
@@ -53,4 +56,5 @@
         min-height: 115vh;
         max-height: 115%;
     }
+   
 }
