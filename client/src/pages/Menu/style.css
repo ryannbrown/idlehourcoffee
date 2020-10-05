@@ -26,7 +26,7 @@
 
 .menu-parent {
     max-width: 1000px;
-    padding: 20px;
+    padding: 25px;
     margin: 0px auto;
     margin-bottom: 100px;
 }
@@ -89,7 +89,7 @@
     justify-content: center;
   }
   .menu-item-overflow {
-    justify-content: center;
+    justify-content: space-between;
   }
   .food-type {
     text-align: center;
