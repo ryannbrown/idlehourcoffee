@@ -49,6 +49,10 @@ export default class Menu extends Component {
     });
   };
 
+  navTo = (id) => {
+    window.location.href=`/food/${id}`
+  }
+
   componentDidMount() {
     const drinkItems = [
       {
@@ -159,12 +163,14 @@ export default class Menu extends Component {
 
     const panSan = [
       {
+        id:0,
         name: "CAPRESE",
         size: "PANINI",
         description: "Tomato, mozzarella, fresh basil, pesto",
         price: "10"
       },
       {
+        id:1,
         name: "SALMON",
         size: "LOX",
         description:
@@ -172,6 +178,7 @@ export default class Menu extends Component {
         price: "12"
       },
       {
+        id:2,
         name: "MUFFULETTA",
         size: "PANINI",
         description:
@@ -179,12 +186,14 @@ export default class Menu extends Component {
         price: "12"
       },
       {
+        id:3,
         name: "GRILLED",
         size: "CHEESE",
         description: "Assorted cheese, union special bread",
         price: "7"
       },
       {
+        id:4,
         name: "BANH",
         size: "MI",
         description:
@@ -195,12 +204,14 @@ export default class Menu extends Component {
 
     const oFace = [
       {
+        id:5,
         name: "THE",
         size: "ITALIAN",
         description: "Prosciutto, olive oil, heirloom tomato, arugula",
         price: "10"
       },
       {
+        id:6,
         name: "THE",
         size: "G.O.A.T",
         description:
@@ -208,6 +219,7 @@ export default class Menu extends Component {
         price: "9"
       },
       {
+        id:7,
         name: "THE",
         size: "NORWEGIAN",
         description:
@@ -302,10 +314,11 @@ export default class Menu extends Component {
     }
     if (showFood) {
       var showOFace = oFace.map((item, i) => (
-        <div
+        <div onClick={()=> {this.navTo(item.id)}}
           className={
-            oFace.length % 3 == 0 ? "menu-item-container" : "menu-item-overflow"
+            oFace.length % 3 == 0 ? "menu-item-container food-links" : "menu-item-overflow food-links"
           }
+          // style={{cursor:'pointer'}}
         >
           <div className="menu-left">
             <div className="menu-stay">
@@ -321,11 +334,13 @@ export default class Menu extends Component {
       ));
       var showPanSan = this.state.panSan.map((item, i) => (
         <div
+        onClick={()=> {this.navTo(item.id)}}
           className={
             panSan.length % 3 == 0
-              ? "menu-item-container"
-              : "menu-item-overflow"
+              ? "menu-item-container food-links"
+              : "menu-item-overflow food-links"
           }
+          // style={{cursor:'pointer'}}
         >
           <div className="menu-left">
             <div className="menu-stay">
@@ -427,6 +442,9 @@ export default class Menu extends Component {
             )}
             {showFood && (
               <div>
+                <p className="size-increase">
+                  <i> Click on an item for pictures and more information</i>
+                </p>
                 <div className="flex-menu-parent">
                   <div>
                     <p className="food-type">
