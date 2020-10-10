@@ -68,6 +68,7 @@
   text-align: left;
   flex: 1 0 21%;
   margin: 25px auto;
+  /* cursor:pointer; */
   /* flex-wrap:wrap; */
 }
 .menu-item-overflow {
@@ -75,6 +76,7 @@
   text-align: left;
   flex: 1 0 21%;
   margin: 25px auto;
+  /* cursor:pointer; */
   /* flex-wrap:wrap; */
 }
 .food-type {
@@ -143,4 +145,16 @@
   font-size:0.85rem;
   color:#adadad;
 
+}
+
+.food-links{
+  cursor:pointer;
+  transition:.6s;
+  /* transform: translateZ(0); */
+  /* backface-visibility: hidden; */
+  -webkit-font-smoothing: antialiased;
+}
+
+.food-links:hover{
+  transform:scale(1.1);
 }
