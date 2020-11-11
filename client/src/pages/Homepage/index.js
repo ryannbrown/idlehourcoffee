@@ -14,6 +14,7 @@ import ScrollIntoView from "react-scroll-into-view";
 import Navigation from "../../components/Navigation/index"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteLeft, faGlassMartini } from "@fortawesome/free-solid-svg-icons";
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
 
 export default class Homepage extends Component {
   constructor(props) {
@@ -79,7 +80,9 @@ export default class Homepage extends Component {
               {/* </ScrollIntoView> */}
             </a>
             <HandRoasted></HandRoasted>
+            <LazyLoadComponent visibleByDefault>
             <Collage></Collage>
+            </LazyLoadComponent>
             <Footer showBrand={this.showBrand}></Footer>
           </div>
         )}
