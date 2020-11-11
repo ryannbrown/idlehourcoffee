@@ -378,7 +378,7 @@ export default class Menu extends Component {
       ));
     }
 
-    console.log(this.state);
+    // console.log(this.state);
 
     return (
       <div>

@@ -7,7 +7,7 @@ import "./style.css";
 // import profPic from "../../media/5.PNG"
 import logo from "../../media/ihlogo.png";
 import blackStar from "../../media/blackstar.png";
-import heroImg from "../../media/background.jpg";
+import heroImg from "../../media/background-min.jpg";
 import clock from "../../media/blackclock.png";
 import flag from "../../media/blackflag.png";
 import dots from "../../media/dots.png";
@@ -23,25 +23,6 @@ export default class HomeHero extends Component {
     this.state = {
       status: "top"
     };
-  }
-
-  componentDidMount() {
-    this.listener = document.addEventListener("scroll", e => {
-      var scrolled = document.scrollingElement.scrollTop;
-      if (scrolled >= 120) {
-        if (this.state.status !== "bgChanged") {
-          this.setState({ status: "bgChanged" });
-        }
-      } else {
-        if (this.state.status !== "top") {
-          this.setState({ status: "top" });
-        }
-      }
-    });
-  }
-
-  componentDidUpdate() {
-    document.removeEventListener("scroll", this.listener);
   }
 
   render() {

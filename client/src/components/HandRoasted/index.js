@@ -15,6 +15,7 @@ import beans from "../../media/beans2.jpg";
 // import arrow from "../../media/arrow.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteLeft, faGlassMartini } from "@fortawesome/free-solid-svg-icons";
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
 
 export default class HandRoasted extends Component {
   constructor(props) {
@@ -26,15 +27,16 @@ export default class HandRoasted extends Component {
     };
   }
 
-  componentDidMount() {}
 
   render() {
     return (
       <div className="hand-roasted-component">
+        <LazyLoadComponent visibleByDefault>
         <div
           className="roasted-hero-comp"
           style={{
             backgroundImage: `url(${beans})`,
+            // backgroundImage: `url('https://idlehour.s3.amazonaws.com/beans2.jpg')`,
             // backgroundColor: `#F9F8F0`,
             opacity: `100%`,
             backgroundBlendMode: `multiply`,
@@ -54,6 +56,7 @@ export default class HandRoasted extends Component {
             //   cover no-repeat center center fixed`
           }}
         >
+        
           <div className="hr-content">
             <img></img>
             {/* <p>Our</p> */}
@@ -62,6 +65,7 @@ export default class HandRoasted extends Component {
             <button className="shop-btn-link">Coming Soon</button>
           </div>
         </div>
+        </LazyLoadComponent>
         <img className="hr-comp-dots" src={dots}></img>
       </div>
     );

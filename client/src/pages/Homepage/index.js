@@ -29,19 +29,19 @@ export default class Homepage extends Component {
   }
 
   componentDidMount() {
-    let height = window.innerHeight + "px";
-    console.log(height);
+    // let height = window.innerHeight + "px";
+    // console.log(height);
 
-    this.setState({
-      height: height,
-    });
-    window.addEventListener("resize", () => {
-      let height = window.innerHeight + "px";
-      console.log(height);
-      this.setState({
-        height: height,
-      });
-    });
+    // this.setState({
+    //   height: height,
+    // });
+    // window.addEventListener("resize", () => {
+    //   let height = window.innerHeight + "px";
+    //   console.log(height);
+    //   this.setState({
+    //     height: height,
+    //   });
+    // });
   }
 
   showBrand = () => {

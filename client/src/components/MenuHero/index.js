@@ -29,24 +29,6 @@ export default class MenuHero extends Component {
     window.location.href = "/menu";
   };
 
-  componentDidMount() {
-    this.listener = document.addEventListener("scroll", e => {
-      var scrolled = document.scrollingElement.scrollTop;
-      if (scrolled >= 120) {
-        if (this.state.status !== "bgChanged") {
-          this.setState({ status: "bgChanged" });
-        }
-      } else {
-        if (this.state.status !== "top") {
-          this.setState({ status: "top" });
-        }
-      }
-    });
-  }
-
-  componentDidUpdate() {
-    document.removeEventListener("scroll", this.listener);
-  }
 
   render() {
     return (

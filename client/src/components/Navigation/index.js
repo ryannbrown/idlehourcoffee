@@ -22,17 +22,6 @@ export default class Navigation extends Component {
   }
 
 
-  componentDidMount() {
-
-  
-  }
-
-  componentDidUpdate() {
-    document.removeEventListener("scroll", this.listener);
-
-
-
-  }
 
   render() {
 

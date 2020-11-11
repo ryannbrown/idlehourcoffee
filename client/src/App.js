@@ -101,14 +101,16 @@ const worksObject = [
 
 
 function App() {
-const history = createHistory({
-    basename: process.env.PUBLIC_URL,
-  });
+// const history = createHistory({
+//     basename: process.env.PUBLIC_URL,
+//   });
 
   return (
     <div className="App">
          {/* <Navigation/> */}
-         <Router history = {history}>
+         <Router
+          // history = {history}
+          >
            <Switch>
              {/* <Route path="/brand" component={Brand}/> */}
              <Route path="/food/:id" render={(props) => <WorksDetails {...props} worksObject={worksObject} title={`Props through render`} />} />
