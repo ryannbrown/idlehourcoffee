@@ -46,10 +46,10 @@ export default class Footer extends Component {
 const {showBrand} = this.state;
 
 
-    console.log(this.state.icons);
+    // console.log(this.state.icons);
     if (this.state.icons) {
       var showIcons = this.state.icons.map((item, i) => (
-        <div className="icon-container">
+        <div key={i} className="icon-container">
           <img className="icon" width="100px" src={item.icon}></img>
         </div>
       ));

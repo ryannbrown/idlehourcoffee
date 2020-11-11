@@ -29,7 +29,7 @@ class AddItem extends Component {
 
 
     fileChanged(event) {
-        console.log(event)
+        // console.log(event)
         var f = event.target.files;
         console.log(f)
         this.setState({
