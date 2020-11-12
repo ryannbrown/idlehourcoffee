@@ -57,10 +57,18 @@ a {
 
 
 .insta-img {
-    width: 293px;
-    height: 293px;
+    width: 375px;
+    height: 275px;
     background-size:cover;
     margin:0px auto;
+}
+
+@media(max-width:787px) {
+    .insta-img {
+        width: 293px;
+        height: 293px;
+     
+    }
 }
 
 
