@@ -51,6 +51,7 @@ class Insta extends Component {
       <div className="insta-post" key={i}>
         <a
           target="_blank"
+          rel='noopener noreferrer'
           href={`https://www.instagram.com/p/${item.node.shortcode}/`}
         >
           {/* <img className="insta-img" src={item.node.display_url} /> */}
@@ -67,7 +68,8 @@ class Insta extends Component {
         </Spinner>
       </div>
     ) : (
-      <div>
+      <div className="collage-section">
+        <h1>Let's Get Social</h1>
         {this.state.showInsta ? (
           <div className="insta-wrapper">{instaPosts}</div>
         ) : (

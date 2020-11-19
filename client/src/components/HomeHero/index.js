@@ -34,7 +34,7 @@ export default class HomeHero extends Component {
               // backgroundColor: `#F9F8F0`,
               opacity: `90%`,
               backgroundBlendMode: `multiply`,
-              backgroundPosition: `center`,
+              backgroundPosition: `80%`,
               backgroundSize: `cover`,
               backgroundRepeat: `no-repeat`,
               // backgroundAttachment: `fixed`,
@@ -44,7 +44,7 @@ export default class HomeHero extends Component {
               display: `flex`,
               alignItems: `center`,
               position: `relative`,
-              zIndex:'50'
+              zIndex:'50',
               //   cover no-repeat center center fixed`
             }}
           >
