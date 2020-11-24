@@ -1,6 +1,7 @@
 
 
     const express = require('express');
+    const helmet = require("helmet");
     const bodyParser = require('body-parser');
     var Client = require('ftp');
     var fs = require('fs');
@@ -138,6 +139,13 @@ main().catch((error) => {
     
  
       if (process.env.NODE_ENV === 'production') {
+
+        app.use(helmet({
+          contentSecurityPolicy: false,
+        }));
+        app.use(hsts({
+          maxAge: 15552000  // 180 days in seconds
+        }))
         // Serve any static files
         app.use(express.static(path.join(__dirname, 'client/build')));
     
