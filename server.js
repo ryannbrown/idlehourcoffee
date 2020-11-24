@@ -143,9 +143,6 @@ main().catch((error) => {
         app.use(helmet({
           contentSecurityPolicy: false,
         }));
-        app.use(hsts({
-          maxAge: 15552000  // 180 days in seconds
-        }))
         // Serve any static files
         app.use(express.static(path.join(__dirname, 'client/build')));
     
