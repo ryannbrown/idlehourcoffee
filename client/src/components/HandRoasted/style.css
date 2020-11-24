@@ -4,28 +4,82 @@
     max-height:100%;
     display:flex;
     align-items:center;
+    justify-content: center;
     /* margin:100px 0px; */
     /* margin-top:-100px; */
+}
+
+.roasted-right{
+    height:100vh;
+    background-color:#212529;
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;   
 }
 
 
 .hr-content{
     display:flex;
-    align-items:center;
     flex-direction:column;
     max-width:980px;
     margin:0px auto;
+    border-bottom: 1.5px solid #fab105;
+    text-align:left;
+}
+
+
+
+ @media(max-width:997px){
+    .hand-roasted-component {
+        flex-direction:column-reverse;
+    }
+    .hr-content{
+        display:flex;
+        /* align-items:center; */
+        flex-direction:column;
+        max-width:980px;
+        margin:0px auto;
+    }
+    .roasted-right{
+        height:50vh;
+        background-color:#212529;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .roasted-left{
+    height:50vh !important;
+    width:100% !important;
+    }
+}
+
+
+.coffee-bag{
+    width:50px;
+    margin-bottom:5px;
+    margin-left:5px;
 }
 
 .hr-content p {
+    color:white;
     padding:5px;
     font-size:2rem;
     font-weight:300;
     line-height: 30px;
+    
 }
 .hr-text{
     width:50%;
 }
+
+/* .hr-hr {
+  width:200px;
+  border-bottom:1.5px solid #fab105;
+  
+} */
 
 .hr-title{
     display:flex;
@@ -121,3 +175,4 @@ button.shop-btn-link:hover {
 
     
 }
+

@@ -5,11 +5,7 @@ import React, { Component } from "react";
 // import HomeHero from "../../components/HomeHero/index"
 import "./style.css";
 // import profPic from "../../media/5.PNG"
-import logo from "../../media/ihlogo.png";
-import blackStar from "../../media/blackstar.png";
-import heroImg from "../../media/background.jpg";
-import clock from "../../media/blackclock.png";
-import latte from "../../media/new-latte-art-nws.png";
+import bag from "../../media/coffee-bag.png"
 import dots from "../../media/dots.png";
 import beans from "../../media/beans2.jpg";
 // import arrow from "../../media/arrow.png"
@@ -31,9 +27,8 @@ export default class HandRoasted extends Component {
   render() {
     return (
       <div className="hand-roasted-component">
-        <LazyLoadComponent visibleByDefault>
-        <div
-          className="roasted-hero-comp"
+        {/* <LazyLoadComponent visibleByDefault> */}
+        <div className="roasted-left"
           style={{
             backgroundImage: `url(${beans})`,
             // backgroundImage: `url('https://idlehour.s3.amazonaws.com/beans2.jpg')`,
@@ -45,7 +40,7 @@ export default class HandRoasted extends Component {
             backgroundRepeat: `no-repeat`,
             // backgroundAttachment: `fixed`,
             height: `100vh`,
-            width: "100%",
+            width: "50%",
             position: "relative",
             // maxHeight: '-webkit-fill-available',
             display: `flex`,
@@ -57,15 +52,18 @@ export default class HandRoasted extends Component {
           }}
         >
         
-          <div className="hr-content">
-            <img></img>
-            {/* <p>Our</p> */}
+         
+        </div>
+        <div className="roasted-right">
+        <div className="hr-content">
+            <img className="coffee-bag" src={bag}></img>
             <p>Hand roasted</p>
             <p>small batch coffee</p>
-            <button className="shop-btn-link">Coming Soon</button>
+            <p>coming soon!</p>
+            <hr className="hr-hr"></hr>
           </div>
         </div>
-        </LazyLoadComponent>
+        {/* </LazyLoadComponent> */}
         <img className="hr-comp-dots" src={dots}></img>
       </div>
     );
