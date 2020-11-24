@@ -54,7 +54,7 @@ export default class Brand extends Component {
         <Col
           style={{
             // backgroundImage: `url(${starBackground})`,
-            backgroundColor: `black`,
+            backgroundColor: `#0E0E0E`,
             // opacity: `90%`,
             backgroundBlendMode: `multiply`,
             backgroundPosition: `center`,

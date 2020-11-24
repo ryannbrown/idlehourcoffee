@@ -60,7 +60,7 @@ const {showBrand} = this.state;
           <Col
             style={{
               // backgroundImage: `url(${starBackground})`,
-              backgroundColor: `black`,
+              backgroundColor: `#0E0E0E`,
               // opacity: `90%`,
               backgroundBlendMode: `multiply`,
               backgroundPosition: `center`,

@@ -76,7 +76,7 @@ export default class Brand extends Component {
     return (
       <div
         style={{
-          backgroundColor: `black`,
+          backgroundColor: `#0E0E0E`,
           zIndex: "2000",
           // position: `fixed`,
           width: `100%`
