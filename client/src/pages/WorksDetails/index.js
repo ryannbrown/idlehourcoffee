@@ -86,25 +86,14 @@ export default class WorksDetails extends Component {
         <div className="works-page">
           {thisModal ? (
             <div className="works-container">
-              <Row className="content-row">
-                <Col
-                  xs={{ span: 12, order: 2 }}
-                  sm={{ span: 12, order: 2 }}
-                  md={{ span: 6, order: "first" }}
-                  lg={{ span: 6, order: "first" }}
-                >
+              <div className="content-row">
                   <div className="off-image-container">
-                    <Image
+                    <img
                       className="works-image img-responsive"
                       src={thisModal.img}
                     />
                   </div>
-                </Col>
-                <Col
-                  xs={{ span: 12, order: "first" }}
-                  sm={{ span: 12, order: "first" }}
-                  md={{ span: 6, order: 2 }}
-                  lg={{ span: 6, order: 2 }}
+                <div className="off-text-container"
                 >
                   <div className="works-description">
                     <h1 className="menu-name">{thisModal.name} <span className="menu-size">{thisModal.size}</span></h1>
@@ -113,8 +102,8 @@ export default class WorksDetails extends Component {
                     <p className="modal-description">{thisModal.description}</p>
                     <p className="modal-description">{thisModal.moreInfo}</p>
                   </div>
-                </Col>
-              </Row>
+                </div>
+              </div>
             </div>
           ) : (
             <div></div>
@@ -125,7 +114,7 @@ export default class WorksDetails extends Component {
             <div>
               <a href="/menu">Back to Menu</a>
             </div>
-            <div>
+            <div className="prev-next">
               {prevModal && <a href={`/food/${prevId}`}>Previous</a>}
               {prevModal && nextModal && <span> | </span>}
               {nextModal && <a href={`/food/${nextId}`}>Next</a>}
