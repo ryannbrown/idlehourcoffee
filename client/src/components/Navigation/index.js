@@ -1,5 +1,5 @@
 
-import { Container, Nav, Button, Image, NavDropdown } from 'react-bootstrap'
+import {  Nav } from 'react-bootstrap'
 import Navbar from 'react-bootstrap/Navbar'
 import { HashLink as Link } from 'react-router-hash-link';
 import React, { Component } from 'react';

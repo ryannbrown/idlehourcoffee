@@ -1,5 +1,3 @@
-import { Container, Nav, Button, Image, Row, Col } from "react-bootstrap";
-import Navbar from "react-bootstrap/Navbar";
 import React, { Component } from "react";
 // import logo from './logo.svg';
 // import HomeHero from "../../components/HomeHero/index"
@@ -48,7 +46,7 @@ export default class HomeHero extends Component {
               //   cover no-repeat center center fixed`
             }}
           >
-            <Image className="hero-logo" src={logo}></Image>
+            <img className="hero-logo" src={logo}></img>
             <img className="hero-comp-dots" src={dots}></img>
           </div>
     );

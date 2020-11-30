@@ -1,5 +1,3 @@
-import { Container, Nav, Button, Image, Row, Col } from "react-bootstrap";
-import Navbar from "react-bootstrap/Navbar";
 import React, { Component } from "react";
 
 // import logo from './logo.svg';
@@ -89,7 +87,7 @@ const {showBrand} = this.state;
               {/* <Image className="comet-image" src={whiteComet}></Image> */}
             </div>
             <div className="bottom-content">
-              <a target="_blank" href="https://www.justsoup.io/">
+              <a target="_blank" rel="noopener noreferrer" href="https://www.justsoup.io/">
               <img width="20px" src={jsLogo}></img>
                 <p className="justsoup">Powered by Just Soup</p>
               </a>

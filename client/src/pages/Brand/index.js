@@ -1,5 +1,3 @@
-import { Container, Nav, Button, Image, Row, Col } from "react-bootstrap";
-import Navbar from "react-bootstrap/Navbar";
 import React, { Component } from "react";
 // import logo from './logo.svg';
 // import HomeHero from "../../components/HomeHero/index"
@@ -50,8 +48,8 @@ export default class Brand extends Component {
     }
 
     return (
-      <Row>
-        <Col
+      <div>
+        <div
           style={{
             // backgroundImage: `url(${starBackground})`,
             backgroundColor: `#0E0E0E`,
@@ -89,8 +87,8 @@ export default class Brand extends Component {
               <p className="justsoup">Powered by Just Soup</p>
             </a>
           </div>
-        </Col>
-      </Row>
+        </div>
+      </div>
     );
   }
 }
