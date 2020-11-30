@@ -88,7 +88,7 @@
 
 @media (max-width: 667px) {
   .menu-item-container {
-    justify-content: center;
+    justify-content: space-between;
   }
   .menu-item-overflow {
     justify-content: space-between;
