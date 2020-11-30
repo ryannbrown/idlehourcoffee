@@ -56,8 +56,8 @@ const {showBrand} = this.state;
     }
 
       return (
-        <Row>
-          <Col
+        <div className="footer-parent">
+          <div
             style={{
               // backgroundImage: `url(${starBackground})`,
               backgroundColor: `#0E0E0E`,
@@ -72,9 +72,8 @@ const {showBrand} = this.state;
               alignItems: `center`,
               justifyContent: "center",
               position: `relative`,
-              width: `350px`,
-              // height: `55vh`,
-              //   cover no-repeat center center fixed`
+              width: `980px`,
+              margin: '0px auto'
             }}
             className="footer-div"
           >
@@ -95,8 +94,8 @@ const {showBrand} = this.state;
                 <p className="justsoup">Powered by Just Soup</p>
               </a>
             </div>
-          </Col>
-        </Row>
+          </div>
+        </div>
       );
     }
   }

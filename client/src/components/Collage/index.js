@@ -1,5 +1,3 @@
-import { Container, Nav, Button, Image, Row, Col } from "react-bootstrap";
-import Navbar from "react-bootstrap/Navbar";
 import React, { Component } from "react";
 import "./style.css";
 import col1 from "../../media/col1-min.jpg"
