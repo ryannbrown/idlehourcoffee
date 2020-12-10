@@ -41,11 +41,13 @@ export default class HoursDirections extends Component {
               <p>7am - 7pm</p>
             </div>
             <div className="hd-block">
+              <a href="https://goo.gl/maps/Q55PSrh9HaNe8YuZ9">
               <img width="50px" src={flag}></img>
               <p className="mb-2">Find us at</p>
               {/* <br></br> */}
               <p>1818 Oberlin Rd #103 </p>
               <p>Raleigh, NC 27608</p>
+            </a>
             </div>
           </div>
         </div>
