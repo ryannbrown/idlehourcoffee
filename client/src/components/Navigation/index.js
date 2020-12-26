@@ -1,7 +1,7 @@
 
 import {  Nav } from 'react-bootstrap'
 import Navbar from 'react-bootstrap/Navbar'
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './style.css';
@@ -20,7 +20,9 @@ export default class Navigation extends Component {
       isMobile: false
     };
   }
-
+  navToHours = () => {
+    window.location.href=`/#hours`
+  }
 
 
   render() {
@@ -37,10 +39,9 @@ export default class Navigation extends Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav" style={{backgroundImage: 'url(${blackStar}'}} />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/menu">Menu</Nav.Link>
-            {/* <ScrollIntoView alignToTop selector="/#hours"> */}
-              <Nav.Link href="/#hours">Hours</Nav.Link>
+            <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav.Link as={Link} to="/menu">Menu</Nav.Link>
+              <Nav.Link onClick={this.navToHours} to="/#hours">Hours</Nav.Link>
               {/* </ScrollIntoView> */}
           </Nav>
         </Navbar.Collapse>

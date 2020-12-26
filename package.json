@@ -36,6 +36,7 @@
     "react-ga": "^2.7.0",
     "react-https-redirect": "^1.1.0",
     "react-lazy-load-image-component": "^1.5.0",
+    "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^1.2.2",
     "react-scroll-into-view": "^1.8.2"
   },

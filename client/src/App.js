@@ -112,8 +112,8 @@ function App() {
           >
            <Switch>
              {/* <Route path="/brand" component={Brand}/> */}
-             <Route path="/food/:id" render={(props) => <WorksDetails {...props} worksObject={worksObject} title={`Props through render`} />} />
              <Route path="/menu" component={Menu}/>
+             <Route path="/food/:id" render={(props) => <WorksDetails {...props} worksObject={worksObject} title={`Props through render`} />} />
              <Route path="/" component={Homepage}/>
            </Switch>
          </Router>
