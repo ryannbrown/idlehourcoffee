@@ -25,8 +25,9 @@ class Insta extends Component {
       `https://www.instagram.com/graphql/query/?query_hash=${hash}&variables={"id":"${id}",%22first%22:4}`
     )
       .then((res) => res.json())
+      .catch(this.setState({ isLoading: false, showBackup: true }))
       .then((json) => {
-        if (json.status === "fail") {
+        if (json.status !== "success") {
           this.setState({ isLoading: false, showBackup: true });
           return null;
         }
