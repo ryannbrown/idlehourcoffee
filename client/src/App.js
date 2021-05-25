@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import {
@@ -22,7 +22,19 @@ import muf from "./media/menu/muf-min.jpg"
 import nor from "./media/menu/nor-min.jpg"
 import goat from "./media/menu/goat-min.jpg"
 import createHistory from 'history/createBrowserHistory';
+
+import { createBrowserHistory } from 'history'
+import ReactGA from 'react-ga'
 require("dotenv").config();
+
+
+
+ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_NO)
+const browserHistory = createBrowserHistory()
+browserHistory.listen((location, action) => {
+  ReactGA.pageview(location.pathname + location.search)
+})
+
 
 const worksObject = [
   {
@@ -99,10 +111,26 @@ const worksObject = [
 
 
 
-function App() {
+
+
+class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+    };
+  }
 // const history = createHistory({
 //     basename: process.env.PUBLIC_URL,
 //   });
+
+componentDidMount() {
+  ReactGA.pageview(window.location.pathname + window.location.search)
+}
+
+
+render() {
+
+
 
   return (
     <div className="App">
@@ -123,5 +151,7 @@ function App() {
   
   );
 }
+}
+
 
 export default App;
