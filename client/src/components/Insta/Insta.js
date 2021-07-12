@@ -12,33 +12,12 @@ class Insta extends Component {
     super(props);
     this.state = {
       instaData: [],
-      isLoading: true,
+      isLoading: false,
       showBackup: false,
       showInsta: false,
     };
   }
 
-  componentDidMount() {
-    let hash = "003056d32c2554def87228bc3fd9668a";
-    let id = "18906178557";
-    fetch(
-      `https://www.instagram.com/graphql/query/?query_hash=${hash}&variables={"id":"${id}",%22first%22:4}`
-    )
-      .then((res) => res.json())
-      .catch(this.setState({ isLoading: false, showBackup: true }))
-      .then((json) => {
-        if (json.status !== "success") {
-          this.setState({ isLoading: false, showBackup: true });
-          return null;
-        }
-        console.log(json);
-        this.setState({
-          instaData: json.data.user.edge_owner_to_timeline_media.edges,
-          isLoading: false,
-          showInsta: true,
-        });
-      });
-  }
 
   render() {
     const { instaData } = this.state;

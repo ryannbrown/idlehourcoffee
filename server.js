@@ -3,7 +3,7 @@ const helmet = require("helmet");
 const bodyParser = require("body-parser");
 var Client = require("ftp");
 var fs = require("fs");
-
+var axios = require("axios");
 const app = express();
 const port = process.env.PORT || 5000;
 
@@ -24,10 +24,6 @@ app.use(morgan("dev"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-
-app.get("/api/insta", (req, res) => {
-   console.log("insta baby")
-  });
 
 
 

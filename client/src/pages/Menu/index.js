@@ -21,7 +21,9 @@ export default class Menu extends Component {
       panSan: [],
       smallBites: [],
       showFood: false,
-      showSmallBites: false
+      showSmallBites: false,
+      seasonal:[],
+      showSeasonal:false
     };
   }
 
@@ -29,21 +31,32 @@ export default class Menu extends Component {
     this.setState({
       showFood: false,
       showDrinks: true,
-      showSmallBites: false
+      showSmallBites: false,
+      showSeasonal:false
     });
   };
   showTheFood = () => {
     this.setState({
       showDrinks: false,
       showFood: true,
-      showSmallBites: false
+      showSmallBites: false,
+      showSeasonal:false
     });
   };
   showTheSmallBites = () => {
     this.setState({
       showDrinks: false,
       showFood: false,
-      showSmallBites: true
+      showSmallBites: true,
+      showSeasonal:false
+    });
+  };
+  showTheSeasonal = () => {
+    this.setState({
+      showSeasonal: true,
+      showDrinks: false,
+      showFood: false,
+      showSmallBites: false
     });
   };
 
@@ -56,105 +69,111 @@ export default class Menu extends Component {
       {
         name: "HOT COFFEE",
         size: "12OZ",
-        description: "Beans by Methodical, located in Greenville, SC",
+        description: "Fresh drip coffee brewed every two hours; beans by Methodical Roasters™️",
         price: "3"
       },
       {
         name: "ESPRESSO",
         size: "2OZ",
-        description: "Two shots of our house espresso",
+        description: "Dialed in daily to extract a balanced shot, accentuating the beans’ notes and flavor profile",
         price: "3"
       },
       {
         name: "AMERICANO",
         size: "12OZ",
-        description: "Espresso with hot water",
+        description: "Two shots of espresso, hot water",
         price: "3"
       },
       {
         name: "MACCHIATO",
         size: "3OZ",
-        description: "Frothed milk with espresso",
+        description: "Two shots of espresso, steamed milk",
+        price: "3.5"
+      },
+      {
+        name: "CORTADO",
+        size: "4.5OZ",
+        description: "Two shots of espresso, steamed milk",
         price: "3.5"
       },
       {
         name: "CAPPUCCINO",
         size: "8OZ",
-        description: "Espresso topped with hot milk and froth",
+        description: "Two shots of espresso, steamed milk",
         price: "4"
       },
       {
         name: "LATTE",
         size: "12OZ",
         description:
-          "Hot milk poured over espresso, and topped with froth. Various flavors available",
+          "Two shots of espresso, steamed milk",
         price: "4.5"
       },
       {
         name: "MOCHA",
         size: "12OZ",
         description:
-          "Layers of espresso, steamed milk, and chocolate, and foam",
+          "Two shots of espresso, steamed milk, house-made Ghirardelli™️ mocha",
         price: "5"
       },
       {
         name: "POUR OVER",
         size: "12OZ",
         description:
-          "Methodical's Play Nice blend is available year around, with rotating blends available as well",
+          "Rotating single origin beans by Methodical Roasters™️",
         price: "4"
       },
       {
         name: "HOT TEA",
         size: "12OZ",
-        description: "Your tea of choice",
+        description: "Your Tin Roof Tea™️ of choice",
         price: "4"
       },
       {
         name: "MATCHA SHOT",
         size: "2OZ",
-        description: "A powerful shot of Matcha",
+        description: "Shot of our Ceremonial matcha (finely ground powder of specially grown green tea leaves)Light, sweet and grassy",
         price: "4"
       },
       {
         name: "MATCHA LATTE",
         size: "12OZ",
         description:
-          "A tea composed of finely ground powder and specially grown green tea leaves",
+          "Culinary matcha, steamed milk",
         price: "4.5"
       },
       {
         name: "CHAI LATTE",
         size: "12OZ",
         description:
-          "Black tea combined with milk, water, and a mixture of aromatic herbs and spices",
+          "Marissa’s own recipe of Tin Roof Teas™️ chai blend with ghost pepper honey, wildflower honey, agave and steamed milk",
         price: "4.5"
       },
       {
         name: "VIETNAMESE COFFEE",
-        size: "16OZ",
+        size: "12OZ",
         description:
-          "Jimmy's mom's homemade recipe of ground dark roast cofffee served by a metal Vietnamese drip filter.",
+          "(ICED) Jimmy’s mom’s homemade recipe of Café Du Monde™️ and condensed milk over ice; strong and sweet",
         price: "4.5"
       },
       {
         name: "COLD BREW",
         size: "12OZ",
         description:
-          "Ground coffee brewed with cool water, creating a smooth and refreshing flavor without the bitterness",
+          "Coarse ground coffee cold steeped overnight; smooth and nutty",
         price: "4"
       },
       {
-        name: "NITRO",
+        name: "Nitro Cold Brew",
         size: "12OZ",
         description:
-          "Cold brew coffee charged with nitrogen, giving it a rich, creamy head of foam",
+          "Our cold brew coffee charged with nitrogen to give a rich and creamy head",
         price: "5"
       },
       {
         name: "ICED TEA",
         size: "12OZ",
-        // description: "",
+        description: "Ask our baristas for the current white, green or black iced tea on rotation",
         price: "4"
       }
     ];
@@ -265,12 +284,33 @@ export default class Menu extends Component {
         price: "3"
       }
     ];
+    const seasonal = [
+      {
+        name: "Suckerpunch",
+        size: "ICED",
+        description: "Delicious homemade chocolate chip cookie",
+        price: "3"
+      },
+      {
+        name: 'Violet Beauregarde',
+        size: "ICED",
+        description: "A featured donut from our friend at Tepuy Donuts",
+        price: "3.5"
+      },
+      {
+        name: "Southwestern Grilled Cheese",
+        size: "",
+        description: "Enjoy a pastry from our selection",
+        price: "8"
+      }
+    ];
 
     this.setState({
       drinkItems: drinkItems,
       panSan: panSan,
       oFace: oFace,
-      smallBites: smallBites
+      smallBites: smallBites,
+      seasonal: seasonal
     });
   }
 
@@ -284,7 +324,9 @@ export default class Menu extends Component {
       smallBites,
       showSmallBites,
       showTheDrinks,
-      showTheSmallBites
+      showTheSmallBites,
+      seasonal,
+      showSeasonal
     } = this.state;
     // console.log(this.state.icons);
     if (showDrinks) {
@@ -375,6 +417,29 @@ export default class Menu extends Component {
         </div>
       ));
     }
+    if (showSeasonal) {
+      var renderSeasonal = this.state.seasonal.map((item, i) => (
+          <div
+            key={i}
+            className={
+              seasonal.length % 3 == 0
+                ? "menu-item-container"
+                : "menu-item-overflow"
+            }
+          >
+            <div className="menu-left">
+              <div className="menu-stay">
+                <p className="menu-name">{item.name}</p>
+                <p className="menu-size">{item.size}</p>
+              </div>
+              <p className="menu-description">{item.description}</p>
+            </div>
+            <div className="menu-right">
+              <p className="menu-price">${item.price}</p>
+            </div>
+          </div>
+        ));
+    }
 
     // console.log(this.state);
 
@@ -427,6 +492,12 @@ export default class Menu extends Component {
                 >
                   Small Bites
                 </p>
+                <p
+                  onClick={this.showTheSeasonal}
+                  className={showSeasonal ? "active" : ""}
+                >
+                  Seasonal
+                </p>
               </div>
             </div>
 
@@ -436,6 +507,14 @@ export default class Menu extends Component {
                   <i> 12oz {"->"} 16oz... + $1</i>
                 </p>
                 <div className="flex-menu-parent">{drinkRender}</div>
+                <div className="drink-details">
+                  <p>Drinks available with whole, skim or Oatley™️</p>
+                  <p>Standard syrups available with any drink: Vanilla, Caramel, Hazelnut, Caramel
+House syrups: Maple Ginger, Lavender Honey, Orange Amaretto</p>
+<p>Matcha Latte available with Purple, Pink, Blue and Brown Matcha
+(maqui berry, dragonfruit, butterfly pea flower and hojicha)</p>
+<p>Vietnamese Coffee available with coconut milk</p>
+                </div>
               </div>
             )}
             {showFood && (
@@ -451,6 +530,18 @@ export default class Menu extends Component {
                     <div className="flex-menu-parent">{showPanSan}</div>
                     <p className="food-type">OPEN FACE SANDWICHES</p>
                     <div className="flex-menu-parent">{showOFace}</div>
+                  </div>
+                </div>
+              </div>
+            )}
+            {showSeasonal && (
+              <div>
+                {/* <p className="size-increase">
+                  <i> Click on an item for pictures and more information</i>
+                </p> */}
+                <div className="flex-menu-parent">
+                  <div>
+                    <div className="flex-menu-parent">{renderSeasonal}</div>
                   </div>
                 </div>
               </div>

@@ -9,6 +9,16 @@
   /* margin: 100px 0px; */
 }
 
+.drink-details {
+  margin-top:50px;
+  padding:25px;
+}
+
+.drink-details p {
+  margin:15px 0px;
+  color: #adadad;
+}
+
 @media (max-width: 667px) {
   .menu-component {
     margin-top:0px;
@@ -68,6 +78,7 @@
   text-align: left;
   flex: 1 0 21%;
   margin: 25px auto;
+  padding:25px;
   /* cursor:pointer; */
   /* flex-wrap:wrap; */
 }
@@ -76,17 +87,22 @@
   text-align: left;
   flex: 1 0 21%;
   margin: 25px auto;
+  padding:0px 25px;
   /* cursor:pointer; */
   /* flex-wrap:wrap; */
 }
 .food-type {
+  padding-left:25px;
     flex-basis: 100%;
     text-align: left;
-    margin: 10px 0px;
+    margin: 25px 0px;
   }
   
 
 @media (max-width: 667px) {
+  .food-type { 
+padding-left:0px;
+  }
   .menu-item-container {
     justify-content: space-between;
   }
@@ -125,6 +141,7 @@
 
 .flex-menu-parent {
   align-self: flex-start;
+  justify-content: center;
   /* margin-top:10%; */
   display: flex;
   flex-wrap: wrap;
