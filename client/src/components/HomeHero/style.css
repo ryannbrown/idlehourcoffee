@@ -115,6 +115,15 @@
     width: 175px;
     margin: 0px auto;
   }
+
+}
+
+
+@media (min-width: 768px) {
+.navbar-expand-md.navbar-nav.nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
 }
 
 @media (min-width: 667px) and (max-width: 996px) {
