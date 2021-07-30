@@ -39,6 +39,7 @@ export default class Navigation extends Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav" style={{backgroundImage: 'url(${blackStar}'}} />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="">
+            <Nav.Link as={Link} className="hide-desktop" to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/menu">Menu</Nav.Link>
               <Nav.Link as={Link} to="/about">About</Nav.Link>
               <Nav.Link as={Link}  to="/partners">Partners</Nav.Link>

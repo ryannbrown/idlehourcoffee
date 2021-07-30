@@ -132,6 +132,10 @@ font-size:12px;
 
     
 @media (min-width:767px) {
+
+    .hide-desktop{
+        display:none;
+    }
     .navbar {
         padding-right:50px;
     }
@@ -146,6 +150,7 @@ font-size:12px;
 }
 
 @media (max-width:767px) {
+
 
     .navbar-light .navbar-nav .nav-link {
 color:black;

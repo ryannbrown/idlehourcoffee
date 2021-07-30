@@ -302,6 +302,10 @@ min-height:500px;
 
 @media (max-width:767px) {
 
+    .colm-img {
+        min-width:375px;
+    }
+
 
     .heading-block {
         text-align:center;
