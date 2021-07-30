@@ -1,8 +1,6 @@
-.home-img{
-    /* max-width:650px;
-    box-shadow: 1px 6px 10px 2px #9898; */
+.page-container {
+    padding: 0px 4vw;
 }
-
 .quote-div {
     position:relative;
     width:50%;
@@ -22,6 +20,34 @@
     top:-5px;
     left:-25px;
 }
+
+
+.heading-block {
+    position:relative;
+    height:50vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lower-dots {
+    width: 25px;
+    position: absolute;
+    left: 50%;
+    bottom: -34px;
+    margin-left: -12.5px;
+    z-index: 9000;
+}
+
+.heading-block h2 {
+    font-size:36px;
+}
+
+.heading-block h2:last-of-type {
+    color:#FAB105;
+}
+
 
 @media (max-width:677px) {
     .quote-div{
@@ -124,15 +150,7 @@
     letter-spacing:3px;
 }
 
-.homepage-content {
-    /* height: 100vh; 
-    height: calc(var(--vh, 1vh) * 100); */
-}
 
-.inner {
-    /* height: calc(var(--vh, 1vh) * 100); */
-    
-}
 
 .homepage-content > hr {
     margin:50px auto;
@@ -158,4 +176,193 @@
     height: 100vh;
     width: 100%;
     scroll-snap-align: start;
+}
+
+.team-section, .local-section {
+    width:100%;
+    height:100%;
+    background-color: #F8F8F8;
+    margin:150px 0px;
+}
+
+.local-section {
+    background-color: white;
+}
+
+.colms{
+    width:100%;
+    height:100%;
+    /* max-width:1200px; */
+    padding: 75px 15%;
+    margin:0px auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colm-left{
+    max-width:750px;
+    position:relative;
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0rem 3.5rem;
+    align-items: flex-start;
+}
+
+.colm p {
+    max-width:400px;
+    min-width:200px;
+}
+
+.colm-right{
+    max-width:750px;
+    position:relative;
+    /* width: 50%; */
+    /* max-width:500px; */
+    margin:0rem 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.colm-img {
+        width:100%;
+        min-width:375px;
+        /* max-width: 475px; */
+        height: 585px;
+        background-size:cover;
+        border-radius: 15px;
+        background-position:center;
+}
+
+
+.bigdots {
+    width: 150px !important;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    margin-left:-75px;
+}
+
+.colm button {
+    margin:10px 0px;
+}
+
+
+
+.home-grid {
+    display:flex;
+    height:100%;
+    min-height:100vh;
+    margin:150px 0px;
+
+}
+
+.grid-left, .grid-right {
+    width:100%;
+}
+
+.grid-left {
+    width:50%;
+background-image:url('../../media/mixin.jpg');
+background-size:cover;
+background-position-x:35%;
+border-radius:15px;
+margin-right:10px;
+}
+.grid-right {
+    width:50%;
+    display:flex;
+    flex-direction: column;
+}
+
+.grid-right-top {
+    border-radius:15px;
+    width:100%;
+    height:100%;
+background-image:url('../../media/window_seat.jpg');
+background-size:cover;
+background-position-x:35%;
+min-height:500px;
+}
+
+.grid-right-bottom {
+    border-radius:15px;
+    margin-top:10px;
+    width:100%;
+    height:100%;
+background-image:url('../../media/cool-couch.jpg');
+background-size:cover;
+background-position-x:center;
+min-height:500px;
+}
+
+@media (max-width:767px) {
+
+
+    .heading-block {
+        text-align:center;
+    }
+
+    .heading-block h2 {
+        margin-bottom:0px;
+    }
+
+
+.colm-right h1, .local-section h1 {
+    margin-top:50px;
+}
+
+    .home-grid {
+        flex-direction: column;
+        min-height:500px;
+        align-items: center;
+        margin:50px 0px;
+    }
+    .grid-left, .grid-right {
+        width:100%;
+        min-height:500px;
+    }
+    .grid-right-bottom{
+    
+        margin-top:0px;
+    }
+    .grid-right-top{
+        margin-left:10px;
+    }
+
+    .grid-right {
+        margin-top:10px;
+        flex-direction:row-reverse;
+      
+    }
+
+    .team-section, .local-section {
+        margin:50px 0px;
+    }
+
+    .colms {
+        flex-direction: column;
+        padding: 50px 0%;
+    }
+
+    .colm-right.text, .colm-left.text {
+        margin:0px 20px;
+    }
+
+    .local-section .colms {
+        flex-direction:column-reverse;
+    }
+
+
+    .bigdots {
+        width: 90px !important;
+        position: absolute;
+        bottom: -15px;
+        left: 50%;
+        margin-left: -45px;
+    }
 }

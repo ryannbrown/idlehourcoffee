@@ -29,20 +29,20 @@ export default class HoursDirections extends Component {
     return (
       <div className="hours-directions-component">
         
-        <img className="hd-comp-dots" src={dots}></img>
+        {/* <img className="hd-comp-dots" src={dots}></img> */}
         <div className="hd-parent">
-          <h1>Come find us!</h1>
+          {/* <h1>Come find us!</h1> */}
           <div className="hd-content">
             <div className="hd-block">
-              <img width="50x" src={clock}></img>
+              <img width="100px" src={clock}></img>
               <p className="mb-2">Store Hours</p>
               {/* <br></br> */}
               <p>Monday - Sunday</p>
               <p>7am - 7pm</p>
             </div>
             <div className="hd-block">
-              <a href="https://goo.gl/maps/Q55PSrh9HaNe8YuZ9">
-              <img width="50px" src={flag}></img>
+              <a target="_blank" rel="noreferrer" href="https://goo.gl/maps/Q55PSrh9HaNe8YuZ9">
+              <img width="100px" src={flag}></img>
               <p className="mb-2">Find us at</p>
               {/* <br></br> */}
               <p>1818 Oberlin Rd #103 </p>

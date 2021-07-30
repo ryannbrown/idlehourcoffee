@@ -6,6 +6,11 @@
   font-family: 'adelle';
 } */
 
+* {
+  font-family: canada-type-gibson, sans-serif;
+  font-style: normal;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -73,6 +78,42 @@ button {
   /* font-family: 'Roboto', sans-serif; */
   /* font-family: adelle, serif; */
   letter-spacing: 0.1rem;
+}
+
+button {
+    display: inline-flex;
+    font-family: "Public Sans", sans-serif;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 400;
+    white-space: nowrap;
+    font-size: 16px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    appearance: none;
+    padding: 16px 28px;
+    line-height: 24px;
+    border-radius: 36px;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out 0s;
+    background-color: transparent;
+    color: #fff;
+    box-shadow: none;
+    background: #FAB105;
+    border: 2px solid #FAB105;
+    /* height: 50px; */
+}
+
+button:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+  background: #DD9C04;
+}
+
+button:focus {
+  outline:none;
 }
 
 /* .App {

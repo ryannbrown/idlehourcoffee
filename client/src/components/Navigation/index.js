@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './style.css';
-import blackStar from "../../media/blackstar.png"
+import blackStar from "../../media/star-icon-white.png"
 import ScrollIntoView from 'react-scroll-into-view'
 // import { Drawer } from '@material-ui/core';
 // import TemporaryDrawer from '../Drawer/index'
@@ -41,7 +41,8 @@ export default class Navigation extends Component {
           <Nav className="">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/menu">Menu</Nav.Link>
-              <Nav.Link onClick={this.navToHours} to="/#hours">Hours</Nav.Link>
+              <Nav.Link as={Link} to="/about">About</Nav.Link>
+              <Nav.Link as={Link}  to="/partners">Partners</Nav.Link>
               {/* </ScrollIntoView> */}
           </Nav>
         </Navbar.Collapse>

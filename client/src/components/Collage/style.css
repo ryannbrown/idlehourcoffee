@@ -1,16 +1,27 @@
 .collage-component {
     position: relative;
-    min-height: 100vh;
-    max-height: 100%;
-    display: flex;
+    /* min-height: 100vh; */
+    height:100%;
+    padding:150px 0px;
+    /* max-height: 100%; */
+    /* display: flex; */
     align-items: center;
     justify-content: center;
+    background-color:#F8F8F8;
+    margin-top:50px;
+    /* max-width:1200px; */
+
+}
+
+.collage-section {
+    margin:0px 4vw;
 }
 
 .collage-wrapper{
     display:flex;
     flex-wrap:wrap;
     justify-content: center;
+    margin:0px 25px;
 }
 
 .collage-img {
