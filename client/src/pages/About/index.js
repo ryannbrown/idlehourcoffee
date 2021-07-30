@@ -59,7 +59,7 @@ export default class About extends Component {
 
 <div className="visit-section">
   <h1>Our team</h1>
-  <p>Methodical coffee roasters. Methodical coffee roasters. Methodical coffee roasters. Methodical coffee roasters. </p>
+  <p>It takes a hard working team to achieve quality in everything we do. A tailored coffee experience is something that we pride ourselves in.  Stop by anytime, we’d love to say hi! </p>
   <img src={team}></img>
 </div>
         </div>
