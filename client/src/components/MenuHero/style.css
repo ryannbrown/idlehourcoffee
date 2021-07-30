@@ -28,9 +28,14 @@
     /* overflow:hidden; */
 }
 
+.hero-logo {
+    /* width: 75%; */
+    min-width:500px;
+}
+
 @media (max-width:667px) {
 .hero-logo {
-    width:75%;
+  padding:50px;
 }
 
 
