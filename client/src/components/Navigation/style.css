@@ -108,7 +108,7 @@ font-size:12px;
         height: 50px;
     }
 
-    @media(max-width:997px) {
+    @media(max-width:767px) {
         .navbar-brand{
             display:none;
         }
