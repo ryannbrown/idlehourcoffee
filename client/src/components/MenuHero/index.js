@@ -46,7 +46,7 @@ export default class MenuHero extends Component {
             backgroundSize: `cover`,
             backgroundRepeat: `no-repeat`,
             // backgroundAttachment: `fixed`,
-            height: `33vh`,
+            height: `400px`,
             position: "relative",
             // maxHeight: '-webkit-fill-available',
             display: `flex`,

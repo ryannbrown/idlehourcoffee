@@ -87,8 +87,7 @@ export default class Homepage extends Component {
                 <div className="colm colm-right text">
                   <h1>Our Team</h1>
                   <p>
-                    Methodical coffee roasters. Methodical coffee roasters.
-                    Methodical coffee roasters. Methodical coffee roasters.
+                  It takes a hard working team to achieve quality in everything we do. Find out more about our shop!
                   </p>
                   <Link to="/about"> <button>Visit</button></Link>
                 </div>
@@ -99,8 +98,7 @@ export default class Homepage extends Component {
                 <div className="colm colm-left text">
                 <h1>Our Local Partners</h1>
                   <p>
-                    Methodical coffee roasters. Methodical coffee roasters.
-                    Methodical coffee roasters. Methodical coffee roasters.
+                  At Idle Hour, we pride ourselves in local quality products that our guests know and love. Take a look at the familiar faces on our shelves.
                   </p>
                   <Link to="/partners"> <button>Our Partners</button></Link>
                 </div>
