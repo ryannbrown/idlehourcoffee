@@ -6,20 +6,42 @@
     background-color:transparent;
     align-items:center;
     justify-content: center;
-    overflow:hidden;
+    /* overflow:hidden; */
     /* z-index:-10; */
     position:relative;
     /* transition: ease-in-out .6s; */
 }
 
+.menu-hero-content {
+    max-width:300px;
+}
+
 .menu-hero-comp{
     height:100%;
-    transition: ease-in-out .6s;
+    /* transition: ease-in-out .6s; */
     width:100%;
 }
 .menu-hero-comp:hover {
-    transform: scale(1.03);
-    transition: ease-in-out .6s;
+    /* transform: scale(1.03); */
+    /* transition: ease-in-out .6s; */
     /* z-index:50; */
     /* overflow:hidden; */
+}
+
+@media (max-width:667px) {
+.hero-logo {
+    width:75%;
+}
+
+
+    .menu-hero-comp {
+        height:415px !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .menu-hero-content {
+        text-align:center;
+    }
+
 }

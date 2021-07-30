@@ -12,6 +12,9 @@ import {
 import Homepage from "./pages/Homepage/index"
 import WorksDetails from "./pages/WorksDetails/index"
 import Menu from "./pages/Menu/index"
+import ScrollToTop from "../src/utils/scrollToTop"
+import Partners from "./pages/Partners/index"
+import About from "./pages/About/index"
 import Brand from "./pages/Brand/index"
 import bahn from "./media/menu/bahnmi-min.jpg"
 import cap from "./media/menu/caprese-min.jpg"
@@ -138,9 +141,12 @@ render() {
          <Router
           // history = {history}
           >
+              <ScrollToTop / >
            <Switch>
              {/* <Route path="/brand" component={Brand}/> */}
              <Route path="/menu" component={Menu}/>
+             <Route path="/partners" component={Partners}/>
+             <Route path="/about" component={About}/>
              <Route path="/food/:id" render={(props) => <WorksDetails {...props} worksObject={worksObject} title={`Props through render`} />} />
              <Route path="/" component={Homepage}/>
            </Switch>

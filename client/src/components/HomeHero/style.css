@@ -6,21 +6,6 @@
   width: 75px;
 } */
 
-.hero-logo {
-  position: absolute;
-  top: 25%;
-  left: 15%;
-  margin: 0px auto;
-  width: 35%;
-}
-
-@media (max-width: 667px) {
-  .hero-logo {
-    margin: 0px auto;
-    width: 50%;
-  }
-}
-
 .hero-icon {
   width: 55px;
   float: left;
@@ -71,13 +56,6 @@
     width: 75px;
   } */
 
-  .hero-logo {
-    position: absolute;
-    top: 25%;
-    left: 20%;
-    margin: 0px auto;
-    width: 25%;
-  }
 
   .hero-icon {
     width: 55px;
@@ -120,13 +98,6 @@
     z-index: 750;
     width: 75px;
   } */
-  .hero-logo {
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    margin-left: -25%;
-    width: 50%;
-  }
 
   .hero-content {
     position: absolute;

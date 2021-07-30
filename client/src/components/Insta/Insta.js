@@ -22,25 +22,6 @@ class Insta extends Component {
   render() {
     const { instaData } = this.state;
 
-
-       var imgArray = this.props.imgs.map((item, i) => (
-        <div key={i} className="collage-img" style={{backgroundImage:`url(${item.src})`}}></div>
-    ));
-
-    const instaPosts = instaData.map((item, i) => (
-      <div className="insta-post" key={i}>
-        <a
-          target="_blank"
-          rel='noopener noreferrer'
-          href={`https://www.instagram.com/p/${item.node.shortcode}/`}
-        >
-          {/* <img className="insta-img" src={item.node.display_url} /> */}
-          <div className="insta-img" style={{backgroundImage:`url(${item.node.display_url})`}}></div>
-          {/* <p className="hover-text">{item.node.edge_media_to_caption.edges[0].node.text}</p> */}
-          <img className="hover-text" src={logo} />
-        </a>
-      </div>
-    ));
     return this.state.isLoading ? (
       <div className="insta-wrapper">
         <Spinner animation="border" role="status">
@@ -49,12 +30,8 @@ class Insta extends Component {
       </div>
     ) : (
       <div className="collage-section">
-        <h1>Let's Get Social</h1>
-        {this.state.showInsta ? (
-          <div className="insta-wrapper">{instaPosts}</div>
-        ) : (
-          <div className="collage-wrapper">{imgArray}</div>
-        )}
+        <h1>What we've been up to</h1>
+          <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/2a47a34964c55747bfec79852a91ceea.html" scrolling="no" allowtransparency="true" className="lightwidget-widget" style={{width:'100%',border:'0',overflow:'hidden'}}></iframe>
       </div>
     );
   }

@@ -3,9 +3,9 @@ import React, { Component } from "react";
 // import HomeHero from "../../components/HomeHero/index"
 import "./style.css";
 // import profPic from "../../media/5.PNG"
-import logo from "../../media/ihlogo.png";
+import logo from "../../media/white-logo.png";
 import blackStar from "../../media/blackstar.png";
-import heroImg from "../../media/background-min.jpg";
+import heroImg from "../../media/floral.png";
 import clock from "../../media/blackclock.png";
 import flag from "../../media/blackflag.png";
 import dots from "../../media/dots.png";
@@ -41,6 +41,7 @@ export default class HomeHero extends Component {
               // maxHeight: '-webkit-fill-available',
               display: `flex`,
               alignItems: `center`,
+              justifyContent: 'center',
               position: `relative`,
               zIndex:'50',
               //   cover no-repeat center center fixed`
