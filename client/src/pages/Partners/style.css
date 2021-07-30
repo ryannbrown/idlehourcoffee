@@ -20,8 +20,8 @@
   text-align: center;
 }
 
-.partners-wrapper p {
-  flex:0 0 25%;
+.partners-wrapper a {
+  flex:0 0 20%;
   color:#FAB105;
   margin:15px;
 }

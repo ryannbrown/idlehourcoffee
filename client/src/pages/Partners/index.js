@@ -63,15 +63,14 @@ export default class Partners extends Component {
          <h1>Proudly Serving</h1>
          <p>Behind every great cup is group of great partners</p>
          <div className="partners-wrapper">
-           <p>Partner</p>
-           <p>Partner</p>
-           <p>Partner</p>
-           <p>Partner</p>
-           <p>Partner</p>
-           <p>Partner</p>
-           <p>Partner</p>
-           <p>Partner</p>
-           <p>Partner</p>
+          <a target="_blank" ref="noreferrer" href="https://www.littlebluemacaron.com/">Little Blue Macaron</a>
+          <a target="_blank" ref="noreferrer" href="https://www.instagram.com/tepuydoughnuts/?hl=en">Tepuy Donuts</a>
+          <a target="_blank" ref="noreferrer" href="https://www.unionspecialbread.com/">Union Special Bakery</a>
+          <a target="_blank" ref="noreferrer" href="https://www.tinroofteas.com/">Tin Roof Teas</a>
+          <a target="_blank" ref="noreferrer" href="http://lyrixelixirs.com/">Lyrix Kombucha</a>
+          <a target="_blank" ref="noreferrer" href="https://arteao.com/">Arteo Matcha</a>
+          <a target="_blank" ref="noreferrer" href="https://methodicalcoffee.com/">Methodical Roasters</a>
+          <a target="_blank" ref="noreferrer" href="">HB’s homemade pastries and cheesecakes</a>
          </div>
 
           </div>
