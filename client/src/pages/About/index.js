@@ -37,7 +37,7 @@ export default class About extends Component {
               // backgroundColor: `#F9F8F0`,
               opacity: `90%`,
               backgroundBlendMode: `multiply`,
-              backgroundPosition: `center`,
+              backgroundPositionY:`25%`,
               backgroundSize: `cover`,
               backgroundRepeat: `no-repeat`,
               // backgroundAttachment: `fixed`,
