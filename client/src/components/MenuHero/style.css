@@ -30,12 +30,14 @@
 
 .hero-logo {
     /* width: 75%; */
+    max-width:750px;
     min-width:500px;
 }
 
 @media (max-width:667px) {
 .hero-logo {
-  padding:6rem;
+    max-width:90vw;
+    min-width:unset;
 }
 
 
