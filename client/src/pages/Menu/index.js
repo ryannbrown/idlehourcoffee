@@ -2,7 +2,7 @@ import React, { Component } from "react";
 // import logo from './logo.svg';
 // import HomeHero from "../../components/HomeHero/index"
 import "./style.css";
-import heroImg from "../../media/shop1.jpg";
+import heroImg from "../../media/mixin.jpg";
 import Navigation from "../../components/Navigation/index";
 
 // import starBackground from '../../media/star-background.png'
@@ -459,7 +459,7 @@ export default class Menu extends Component {
               backgroundRepeat: `no-repeat`,
               // backgroundAttachment: `fixed`,
               // height: `16rem`,
-              height: `25rem`,
+              height: `50vh`,
               color: "white",
               justifyContent: "center",
               // maxHeight: '-webkit-fill-available',
