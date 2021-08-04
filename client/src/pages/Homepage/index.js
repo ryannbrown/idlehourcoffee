@@ -123,10 +123,11 @@ export default class Homepage extends Component {
               {/* </ScrollIntoView> */}
             </a>
             {/* <HandRoasted></HandRoasted> */}
-            {/* <LazyLoadComponent visibleByDefault>
+        
               
               <Collage></Collage>
-            </LazyLoadComponent> */}
+              
+   
             <Footer showBrand={this.showBrand}></Footer>
           </div>
         )}
