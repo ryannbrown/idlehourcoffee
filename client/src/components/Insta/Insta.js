@@ -31,7 +31,7 @@ class Insta extends Component {
     ) : (
       <div className="collage-section">
         <h1>What we've been up to</h1>
-          <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/2a47a34964c55747bfec79852a91ceea.html" scrolling="no" allowtransparency="true" className="lightwidget-widget" style={{width:'100%',border:'0',overflow:'hidden'}}></iframe>
+          <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/2a47a34964c55747bfec79852a91ceea.html" scrolling="no" allowtransparency="true" className="lightwidget-widget" style={{width:'100%',border:'0',overflow:'hidden'}}></iframe>
       </div>
     );
   }
