@@ -24,6 +24,14 @@ export default class Navigation extends Component {
     window.location.href=`/#hours`
   }
 
+//   mobileBgChange = () => {
+//     let nav = document.getElementsByClassName("navbar");
+// let classes = nav.classList;
+// classes.add("mobileWhite");
+// console.log(classes);
+// // span.textContent = classes;
+//   }
+
 
   render() {
 
@@ -32,7 +40,9 @@ export default class Navigation extends Component {
 
 
     return (
-        <Navbar expand="md" style={{ backgroundColor:"transparent"}}>
+        <Navbar expand="md"
+        //  onClick={this.mobileBgChange}
+          style={{ backgroundColor:"transparent"}}>
         <Navbar.Brand href="/">
              <img className="nav-btn" src={blackStar}></img>
              </Navbar.Brand>

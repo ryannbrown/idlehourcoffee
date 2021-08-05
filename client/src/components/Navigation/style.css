@@ -165,6 +165,6 @@ color:black;
     }
     .navbar {
             height: auto;
-        background-color:white !important;
+        /* background-color:white !important; */
     }
 }

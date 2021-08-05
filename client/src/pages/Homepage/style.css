@@ -331,11 +331,14 @@ min-height:500px;
         min-height:500px;
     }
     .grid-right-bottom{
-    
+    height:50%;
+    min-height:250px;
         margin-top:0px;
     }
     .grid-right-top{
         margin-left:10px;
+        height:50%;
+        min-height:250px;
     }
 
     .grid-right {
