@@ -7,7 +7,7 @@ import Navigation from "../../components/Navigation/index";
 import HoursDirections from "../../components/HoursDirections";
 import team from "../../media/team-wide.png"
 import Footer from "../../components/Footer";
-
+import { Helmet } from "react-helmet";
 // import starBackground from '../../media/star-background.png'
 
 export default class About extends Component {
@@ -28,6 +28,12 @@ export default class About extends Component {
 
     return (
       <div>
+               <Helmet>
+                <meta charSet="utf-8" />
+                <title>About | Idle Hour Coffee Roasters</title>
+                <meta name="description" content="Boutique coffee shop located in Raleigh NC, serving delicious coffee and sandwiches. Free wifi and aesthetic work space. Open 7 am - 7 pm, 7 days a week." />
+                {/* <link rel="canonical" href="http://www.idlehourcoffee.com/" /> */}
+            </Helmet>
         <Navigation />
         <div className="menu-component">
           <div

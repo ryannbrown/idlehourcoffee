@@ -4,6 +4,7 @@ import React, { Component } from "react";
 import "./style.css";
 import heroImg from "../../media/mixin.jpg";
 import Navigation from "../../components/Navigation/index";
+import { Helmet } from "react-helmet";
 
 // import starBackground from '../../media/star-background.png'
 
@@ -446,6 +447,12 @@ export default class Menu extends Component {
     return (
       <div>
         <Navigation />
+        <Helmet>
+                <meta charSet="utf-8" />
+                <title>Menu | Idle Hour Coffee Roasters</title>
+                <meta name="description" content="Boutique coffee shop located in Raleigh NC, serving delicious coffee and sandwiches. Free wifi and aesthetic work space. Open 7 am - 7 pm, 7 days a week." />
+                {/* <link rel="canonical" href="http://www.idlehourcoffee.com/" /> */}
+            </Helmet>
         <div className="menu-component">
           <div
             className="menu-hero"

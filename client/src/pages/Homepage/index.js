@@ -18,6 +18,7 @@ import { faQuoteLeft, faGlassMartini } from "@fortawesome/free-solid-svg-icons";
 import { LazyLoadComponent } from "react-lazy-load-image-component";
 import {Link} from "react-router-dom";
 import dots from "../../media/dots.png"
+import {Helmet} from "react-helmet"
 
 export default class Homepage extends Component {
   constructor(props) {
@@ -60,6 +61,12 @@ export default class Homepage extends Component {
         ) : (
           <div>
             <Navigation />
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Idle Hour Coffee Roasters - Raleigh</title>
+                <meta name="description" content="Boutique coffee shop located in Raleigh NC, serving delicious coffee and sandwiches. Free wifi and aesthetic work space. Open 7 am - 7 pm, 7 days a week." />
+                {/* <link rel="canonical" href="http://www.idlehourcoffee.com/" /> */}
+            </Helmet>
             <div
               className="homepage-content"
               style={{
