@@ -51,7 +51,7 @@ export default class Navigation extends Component {
           <Nav className="">
             <Nav.Link as={Link} className="hide-desktop" to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/menu">Menu</Nav.Link>
-              <Nav.Link as={Link} to="/about">About</Nav.Link>
+              <Nav.Link as={Link} to="/about">Visit</Nav.Link>
               <Nav.Link as={Link}  to="/partners">Partners</Nav.Link>
               {/* </ScrollIntoView> */}
           </Nav>
