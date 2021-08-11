@@ -289,19 +289,19 @@ export default class Menu extends Component {
       {
         name: "Suckerpunch",
         size: "ICED",
-        description: "Delicious homemade chocolate chip cookie",
+        description: "House made hibiscus syrup, our cold brew, lemon juice, hibiscus La Croix™️ and Topo Chico™️",
         price: "3"
       },
       {
         name: 'Violet Beauregarde',
         size: "ICED",
-        description: "A featured donut from our friend at Tepuy Donuts",
+        description: "Blueberry and basil reduction, lemon juice, Topo Chico™️, garnished with fresh basil",
         price: "3.5"
       },
       {
         name: "Southwestern Grilled Cheese",
         size: "",
-        description: "Enjoy a pastry from our selection",
+        description: "The Classic. Add jalapeños, cilantro and tomatoes",
         price: "8"
       }
     ];
