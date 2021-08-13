@@ -63,13 +63,32 @@ export default class About extends Component {
 
 <HoursDirections></HoursDirections>
 
+  <div className="container-max">
 <div className="visit-section">
   <h1>Our team</h1>
   <p>It takes a hard working team to achieve quality in everything we do. A tailored coffee experience is something that we pride ourselves in.  Stop by anytime, we’d love to say hi! </p>
   <img src={team}></img>
 </div>
+<div className="section-margin jimmy-section">
+<h1>Jimmy</h1>
+  <p>Meet Jimmy Bellew, the owner of Idle Hour!</p>
+  <p>
+An experienced barista and supporter of the arts, Jimmy wanted a way to give back to the community. He found a way to fulfil that desire by opening a communal space in the Oberlin neighborhood and partnering with local businesses to provide a great experience and serve quality drinks.</p>
+<p>
+Originally from Fayetteville, Jimmy moved to Philadelphia to attend the Philadelphia Academy of the Fine Arts. He stayed in the city after graduating and began working as a barista at a local coffee shop. There, he had the opportunity to receive technician training from La Marzocco and from Fetco (big names in the coffee industry!). This layer of technical expertise, in addition to his developed palette from years of dialing in espresso, roasting beans and cupping coffee, would prepare him for promising circumstances later on.</p>
+<p>
+Wanting to be closer to family, Jimmy moved back to NC in 2018. He returned with a depth of coffee knowledge and grand plans, opening the doors of Idle Hour in August 2020!</p>
+
+<p>
+Drop in a few times and you’ll quickly become acquainted with the rest of the family: catch Jimmy’s mom HB driving up weekly to deliver her fresh homemade cheesecakes and pastries or glimpse his stepfather Gordan behind the scenes, ensuring we all get paid. </p>
+
+<p>
+Come by! We'd love to serve you a hand crafted espresso or pour over, and if time allows, a conversation or two.
+</p>
+</div>
+</div>
         </div>
-        {/* <Footer></Footer> */}
+        <Footer></Footer>
       </div>
     );
   }
