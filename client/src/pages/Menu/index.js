@@ -276,20 +276,26 @@ export default class Menu extends Component {
         size: "",
         // description: "",
         price: "6"
-      },
-      {
-        name: '"BOLD"',
-        size: "Bagel",
-        description:
-          "We feature New York Style bagels from BOLD Bagels here in the Triangle",
-        price: "3"
       }
+      // {
+      //   name: '"BOLD"',
+      //   size: "Bagel",
+      //   description:
+      //     "We feature New York Style bagels from BOLD Bagels here in the Triangle",
+      //   price: "3"
+      // }
     ];
     const seasonal = [
       {
+        name: "Peachy Keen",
+        size: "ICED",
+        description: "Housemade peach mint syrup, fresh lemon juice, and Topo Chico™️",
+        price: "3"
+      },
+      {
         name: "Suckerpunch",
         size: "ICED",
-        description: "House made hibiscus syrup, our cold brew, lemon juice, hibiscus La Croix™️ and Topo Chico™️",
+        description: "Housemade hibiscus syrup, our cold brew, lemon juice, hibiscus La Croix™️ and Topo Chico™️",
         price: "3"
       },
       {

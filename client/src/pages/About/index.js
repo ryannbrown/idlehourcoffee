@@ -70,8 +70,8 @@ export default class About extends Component {
   <img src={team}></img>
 </div>
 <div className="section-margin jimmy-section">
-<h1>Jimmy</h1>
-  <p>Meet Jimmy Bellew, the owner of Idle Hour!</p>
+<h1>Meet Jimmy Bellew, the owner of Idle Hour!</h1>
+  {/* <p></p> */}
   <p>
 An experienced barista and supporter of the arts, Jimmy wanted a way to give back to the community. He found a way to fulfil that desire by opening a communal space in the Oberlin neighborhood and partnering with local businesses to provide a great experience and serve quality drinks.</p>
 <p>
