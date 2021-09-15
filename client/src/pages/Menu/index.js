@@ -192,7 +192,7 @@ export default class Menu extends Component {
         name: "SALMON",
         size: "LOX",
         description:
-          "Cured salmon, cream cheese, capers, red onion, frisee lettuce, tomato on a BOLD everything bagel",
+          "Cured salmon, cream cheese, capers, red onion, frisee lettuce, tomato on an everything bagel",
         price: "12"
       },
       {
